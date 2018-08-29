@@ -1,0 +1,1000 @@
+normalizeSyntax	.tag_sources/org/apache/http/client/utils/URIUtils.java	/^    static URI normalizeSyntax(final URI uri) throws URISyntaxException {$/;"	m	class:URIUtils
+normalizeTag	.tag_sources/org/jsoup/parser/ParseSettings.java	/^    String normalizeTag(String name) {$/;"	m	class:ParseSettings
+normalizeTemplate	.tag_sources/scala/tools/nsc/doc/model/ModelFactory.scala	/^  def normalizeTemplate(aSym: Symbol): Symbol = aSym match {$/;"	m
+normalizeTicksPerWheel	.tag_sources/io/netty/util/HashedWheelTimer.java	/^    private static int normalizeTicksPerWheel(int ticksPerWheel) {$/;"	m	class:HashedWheelTimer	file:
+normalizeTicksPerWheel	.tag_sources/org/jboss/netty/util/HashedWheelTimer.java	/^    private static int normalizeTicksPerWheel(int ticksPerWheel) {$/;"	m	class:HashedWheelTimer	file:
+normalizeToTimezone	.tag_sources/org/apache/xerces/jaxp/datatype/XMLGregorianCalendarImpl.java	/^    private XMLGregorianCalendar normalizeToTimezone(XMLGregorianCalendar cal, int timezone) {$/;"	m	class:XMLGregorianCalendarImpl	file:
+normalizeToken	.tag_sources/com/google/common/net/MediaType.java	/^  private static String normalizeToken(String token) {$/;"	m	class:MediaType	file:
+normalizeURI	.tag_sources/org/eclipse/jetty/util/resource/FileResource.java	/^    private static String normalizeURI(File file, URI uri)$/;"	m	class:FileResource	file:
+normalizeUpperBounds	.tag_sources/org/apache/commons/lang3/reflect/TypeUtils.java	/^    public static Type[] normalizeUpperBounds(final Type[] bounds) {$/;"	m	class:TypeUtils
+normalizeUrl	.tag_sources/scalaj/http/OAuth.scala	/^  private def normalizeUrl(url: URL) = {$/;"	m
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/XML11DTDScannerImpl.java	/^    protected void normalizeWhitespace(XMLString value) {$/;"	m	class:XML11DTDScannerImpl
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/XML11DTDScannerImpl.java	/^    protected void normalizeWhitespace(XMLString value, int fromIndex) {$/;"	m	class:XML11DTDScannerImpl
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/XML11DocumentScannerImpl.java	/^    protected void normalizeWhitespace(XMLString value) {$/;"	m	class:XML11DocumentScannerImpl
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/XML11DocumentScannerImpl.java	/^    protected void normalizeWhitespace(XMLString value, int fromIndex) {$/;"	m	class:XML11DocumentScannerImpl
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/XMLScanner.java	/^    protected void normalizeWhitespace(XMLString value) {$/;"	m	class:XMLScanner
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/XMLScanner.java	/^    protected void normalizeWhitespace(XMLString value, int fromIndex) {$/;"	m	class:XMLScanner
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/xs/XMLSchemaValidator.java	/^    private void normalizeWhitespace(String value, boolean collapse) {$/;"	m	class:XMLSchemaValidator	file:
+normalizeWhitespace	.tag_sources/org/apache/xerces/impl/xs/XMLSchemaValidator.java	/^    private void normalizeWhitespace(XMLString value, boolean collapse) {$/;"	m	class:XMLSchemaValidator	file:
+normalizeWhitespace	.tag_sources/org/custommonkey/xmlunit/DifferenceEngine.java	/^    final static String normalizeWhitespace(String orig) {$/;"	m	class:DifferenceEngine
+normalizeWhitespace	.tag_sources/org/custommonkey/xmlunit/XMLUnit.java	/^    private static boolean normalizeWhitespace = false;$/;"	f	class:XMLUnit	file:
+normalizeWhitespace	.tag_sources/scala/xml/parsing/FactoryAdapter.scala	/^  val normalizeWhitespace = false$/;"	V
+normalizeWith	.tag_sources/javax/xml/datatype/Duration.java	/^    public abstract Duration normalizeWith(final Calendar startTimeInstant);$/;"	m	class:Duration
+normalizeWith	.tag_sources/org/apache/xerces/jaxp/datatype/DurationImpl.java	/^    public Duration normalizeWith(Calendar startTimeInstant) {$/;"	m	class:DurationImpl
+normalizeWord	.tag_sources/com/google/common/base/CaseFormat.java	/^  abstract String normalizeWord(String word);$/;"	m	class:CaseFormat
+normalize_spaceF	.tag_sources/org/apache/xalan/xsltc/runtime/BasisLibrary.java	/^    public static String normalize_spaceF(String value) {$/;"	m	class:BasisLibrary
+normalize_spaceF	.tag_sources/org/apache/xalan/xsltc/runtime/BasisLibrary.java	/^    public static String normalize_spaceF(int node, DOM dom) {$/;"	m	class:BasisLibrary
+normalized	.tag_sources/macros.scala	/^    private def normalized(boundTypes: Map[String, Type])(tpe: Type): (Type, Boolean) = boundTypes.getOrElse(tpe.typeSymbol.fullName, tpe) match {$/;"	m
+normalized	.tag_sources/org/apache/xerces/impl/dv/xs/AbstractDateTimeDV.java	/^        boolean normalized = true;$/;"	f	class:AbstractDateTimeDV.DateTimeData
+normalized	.tag_sources/org/scalactic/ComposedNormalizingEquality.scala	/^  def normalized(a: A): A = uniformity.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalactic/ComposedNormalizingEquivalence.scala	/^  def normalized(a: A): A = normalization.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalactic/Equality.scala	/^      def normalized(a: A): A = uniformity.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalactic/Normalization.scala	/^      def normalized(a: A): A = other.normalized(thisNormalization.normalized(a))$/;"	m
+normalized	.tag_sources/org/scalactic/Normalization.scala	/^      def normalized(a: A): A = thisNormalization.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalactic/Normalization.scala	/^  def normalized(a: A): A$/;"	m
+normalized	.tag_sources/org/scalactic/NormalizingEquality.scala	/^      def normalized(a: A): A = thisNormEq.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalactic/NormalizingEquality.scala	/^  def normalized(a: A): A$/;"	m
+normalized	.tag_sources/org/scalactic/NormalizingEquivalence.scala	/^      def normalized(a: A): A = thisNormEq.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalactic/NormalizingEquivalence.scala	/^  def normalized(a: A): A$/;"	m
+normalized	.tag_sources/org/scalactic/StringNormalizations.scala	/^      def normalized(s: String): String = s.toLowerCase$/;"	m
+normalized	.tag_sources/org/scalactic/StringNormalizations.scala	/^      def normalized(s: String): String = s.toUpperCase$/;"	m
+normalized	.tag_sources/org/scalactic/StringNormalizations.scala	/^      def normalized(s: String): String = s.trim$/;"	m
+normalized	.tag_sources/org/scalactic/Uniformity.scala	/^      def normalized(a: A): A = other.normalized(thisUniformity.normalized(a))$/;"	m
+normalized	.tag_sources/org/scalactic/Uniformity.scala	/^      def normalized(a: A): A = thisUniformity.normalized(a)$/;"	m
+normalized	.tag_sources/org/scalatest/StreamlinedXml.scala	/^      def normalized(nodeSeq: T): T =$/;"	m
+normalized	.tag_sources/scala/reflect/internal/Types.scala	/^    private var normalized: Type                       = _$/;"	v
+normalized	.tag_sources/scala/reflect/internal/Types.scala	/^    private var normalized: Type = _$/;"	v
+normalizedBoundaries	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/v8dtoa/DoubleHelper.java	/^    static void normalizedBoundaries(long d64, DiyFp m_minus, DiyFp m_plus) {$/;"	m	class:DoubleHelper
+normalizedCanHandle	.tag_sources/org/scalactic/AbstractStringUniformity.scala	/^  final def normalizedCanHandle(b: Any): Boolean = b.isInstanceOf[String]$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/ComposedNormalizingEquality.scala	/^  def normalizedCanHandle(b: Any): Boolean = uniformity.normalizedCanHandle(b)$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/Equality.scala	/^      def normalizedCanHandle(b: Any): Boolean = uniformity.normalizedCanHandle(b)$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/NormalizingEquality.scala	/^      def normalizedCanHandle(b: Any): Boolean = thisNormEq.normalizedCanHandle(b)$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/NormalizingEquality.scala	/^  def normalizedCanHandle(b: Any): Boolean$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/Uniformity.scala	/^      def normalizedCanHandle(b: Any): Boolean = other.normalizedCanHandle(b) && thisUniformity.normalizedCanHandle(b)$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/Uniformity.scala	/^      def normalizedCanHandle(b: Any): Boolean = thisUniformity.normalizedCanHandle(b)$/;"	m
+normalizedCanHandle	.tag_sources/org/scalactic/Uniformity.scala	/^  def normalizedCanHandle(b: Any): Boolean$/;"	m
+normalizedCanHandle	.tag_sources/org/scalatest/StreamlinedXml.scala	/^      final def normalizedCanHandle(b: Any): Boolean = b.isInstanceOf[NodeSeq]$/;"	m
+normalizedChunkNumber	.tag_sources/api/gridfs.scala	/^        val normalizedChunkNumber = wholeChunk.length \/ chunkSize$/;"	V
+normalizedExtractor	.tag_sources/scala/tools/nsc/transform/patmat/ScalacPatternExpanders.scala	/^      val normalizedExtractor = if (requiresTupling) {$/;"	V
+normalizedOrSame	.tag_sources/org/scalactic/AbstractStringUniformity.scala	/^  final def normalizedOrSame(b: Any) =$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/ComposedNormalizingEquality.scala	/^  def normalizedOrSame(b: Any): Any = uniformity.normalizedOrSame(b)$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/Equality.scala	/^      def normalizedOrSame(b: Any): Any = uniformity.normalizedOrSame(b)$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/NormalizingEquality.scala	/^      def normalizedOrSame(b: Any): Any = thisNormEq.normalizedOrSame(b)$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/NormalizingEquality.scala	/^  def normalizedOrSame(b: Any): Any$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/Uniformity.scala	/^      def normalizedOrSame(b: Any): Any = other.normalizedOrSame(thisUniformity.normalizedOrSame(b))$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/Uniformity.scala	/^      def normalizedOrSame(b: Any): Any = thisUniformity.normalizedOrSame(b)$/;"	m
+normalizedOrSame	.tag_sources/org/scalactic/Uniformity.scala	/^  def normalizedOrSame(b: Any): Any$/;"	m
+normalizedOrSame	.tag_sources/org/scalatest/StreamlinedXml.scala	/^      final def normalizedOrSame(b: Any): Any =$/;"	m
+normalizedParents	.tag_sources/scala/reflect/internal/Definitions.scala	/^    def normalizedParents(parents: List[Type]): List[Type] = {$/;"	m
+normalizedStandard	.tag_sources/org/joda/time/Period.java	/^    public Period normalizedStandard() {$/;"	m	class:Period
+normalizedStandard	.tag_sources/org/joda/time/Period.java	/^    public Period normalizedStandard(PeriodType type) {$/;"	m	class:Period
+normalizedTpe	.tag_sources/scala/tools/nsc/backend/jvm/GenASM.scala	/^      val normalizedTpe = enteringErasure(erasure.prepareSigMap(memberTpe))$/;"	V
+normalizedValue	.tag_sources/org/apache/xerces/impl/dv/ValidatedInfo.java	/^    public String normalizedValue;$/;"	f	class:ValidatedInfo
+northJPanel	.tag_sources/org/scalatest/tools/AboutJDialog.scala	/^  val northJPanel = new JPanel$/;"	V
+nospecialization	.tag_sources/scala/tools/nsc/settings/ScalaSettings.scala	/^  val nospecialization = BooleanSetting ("-no-specialization", "Ignore @specialize annotations.")$/;"	V
+nostacks	.tag_sources/org/scalatest/Shell.scala	/^  lazy val nostacks: Shell = copy(shortstacksPassed = false, fullstacksPassed = false)$/;"	V
+nostacks	.tag_sources/org/scalatest/Shell.scala	/^  val nostacks: Shell$/;"	V
+nostacks	.tag_sources/org/scalatest/package.scala	/^  lazy val nostacks: Shell = defaultShell.nostacks$/;"	V
+nostats	.tag_sources/org/scalatest/Shell.scala	/^  lazy val nostats: Shell = copy(statsPassed = false)$/;"	V
+nostats	.tag_sources/org/scalatest/Shell.scala	/^  val nostats: Shell$/;"	V
+nostats	.tag_sources/org/scalatest/package.scala	/^  lazy val nostats: Shell = defaultShell.nostats$/;"	V
+not	.tag_sources/com/google/common/base/Predicates.java	/^  public static <T> Predicate<T> not(Predicate<T> predicate) {$/;"	m	class:Predicates
+not	.tag_sources/com/google/inject/matcher/Matchers.java	/^  public static <T> Matcher<T> not(final Matcher<? super T> p) {$/;"	m	class:Matchers
+not	.tag_sources/net/sf/cglib/core/CodeEmitter.java	/^    public void not() {$/;"	m	class:CodeEmitter
+not	.tag_sources/org/hamcrest/CoreMatchers.java	/^  public static <T> org.hamcrest.Matcher<T> not(T value) {$/;"	m	class:CoreMatchers
+not	.tag_sources/org/hamcrest/CoreMatchers.java	/^  public static <T> org.hamcrest.Matcher<T> not(org.hamcrest.Matcher<T> matcher) {$/;"	m	class:CoreMatchers
+not	.tag_sources/org/hamcrest/core/IsNot.java	/^    public static <T> Matcher<T> not(Matcher<T> matcher) {$/;"	m	class:IsNot
+not	.tag_sources/org/hamcrest/core/IsNot.java	/^    public static <T> Matcher<T> not(T value) {$/;"	m	class:IsNot
+not	.tag_sources/org/jsoup/select/Elements.java	/^    public Elements not(String query) {$/;"	m	class:Elements
+not	.tag_sources/org/jsoup/select/QueryParser.java	/^    private void not() {$/;"	m	class:QueryParser	file:
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static <T> T not(T first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static boolean not(boolean first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static byte not(byte first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static char not(char first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static double not(double first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static float not(float first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static int not(int first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static long not(long first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/AdditionalMatchers.java	/^    public static short not(short first) {$/;"	m	class:AdditionalMatchers
+not	.tag_sources/org/mockito/cglib/core/CodeEmitter.java	/^    public void not() {$/;"	m	class:CodeEmitter
+not	.tag_sources/org/objectweb/asm/commons/GeneratorAdapter.java	/^    public void not() {$/;"	m	class:GeneratorAdapter
+not	.tag_sources/org/openqa/selenium/support/ui/ExpectedConditions.java	/^  public static ExpectedCondition<Boolean> not(final ExpectedCondition<?> condition) {$/;"	m	class:ExpectedConditions
+not	.tag_sources/org/parboiled/common/Predicates.java	/^    public static <T> Predicate<T> not(Predicate<T> predicate) {$/;"	m	class:Predicates
+not	.tag_sources/org/scalatest/words/MatcherWords.scala	/^  val not = new NotWord$/;"	V
+not	.tag_sources/scala/tools/nsc/settings/ScalaVersion.scala	/^  private def not(s:String) = s"[^${s}]"$/;"	m
+not	.tag_sources/scala/tools/nsc/transform/patmat/Solving.scala	/^        def not(a: Lit): Lit = -a$/;"	m
+not	.tag_sources/scala/tools/nsc/typechecker/Infer.scala	/^          def not = if (isFullyDefined(pt)) "" else "not "$/;"	m
+not	.tag_sources/scala/util/parsing/combinator/Parsers.scala	/^  def not[T](p: => Parser[T]): Parser[Unit] = Parser { in =>$/;"	m
+notAMockPassedToVerify	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void notAMockPassedToVerify(Class type) {$/;"	m	class:Reporter
+notAMockPassedToVerifyNoMoreInteractions	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void notAMockPassedToVerifyNoMoreInteractions() {$/;"	m	class:Reporter
+notAMockPassedToWhenMethod	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void notAMockPassedToWhenMethod() {$/;"	m	class:Reporter
+notAMockPassedWhenCreatingInOrder	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void notAMockPassedWhenCreatingInOrder() {$/;"	m	class:Reporter
+notAPrimary	.tag_sources/core/actors/MongoDBSystem.scala	/^              val notAPrimary = fields.find(_.name == "errmsg").exists {$/;"	V
+notASubtype	.tag_sources/com/google/inject/internal/Errors.java	/^  public Errors notASubtype(Class<?> implementationType, Class<?> type) {$/;"	m	class:Errors
+notATypeMatcher	.tag_sources/org/scalatest/matchers/TypeMatcherHelper.scala	/^  def notATypeMatcher(aType: ResultOfATypeInvocation[_]): Matcher[Any] =$/;"	m
+notATypeMatcher	.tag_sources/org/scalatest/matchers/TypeMatcherMacro.scala	/^  def notATypeMatcher(context: Context)(aType: context.Expr[ResultOfATypeInvocation[_]]): context.Expr[Matcher[Any]] = {$/;"	m
+notAfter	.tag_sources/org/bouncycastle/asn1/crmf/OptionalValidity.java	/^    private Time notAfter;$/;"	f	class:OptionalValidity	file:
+notAfter	.tag_sources/org/bouncycastle/x509/X509V2AttributeCertificate.java	/^    private Date                    notAfter;$/;"	f	class:X509V2AttributeCertificate	file:
+notAfterTime	.tag_sources/org/bouncycastle/asn1/x509/AttCertValidityPeriod.java	/^    ASN1GeneralizedTime  notAfterTime;$/;"	f	class:AttCertValidityPeriod
+notAllowed	.tag_sources/scala/tools/nsc/typechecker/Typers.scala	/^        def notAllowed(what: String) = context.error(stat.pos, s"$what is not allowed in $where")$/;"	m
+notAnTypeMatcher	.tag_sources/org/scalatest/matchers/TypeMatcherHelper.scala	/^  def notAnTypeMatcher(anType: ResultOfAnTypeInvocation[_]): Matcher[Any] =$/;"	m
+notAnTypeMatcher	.tag_sources/org/scalatest/matchers/TypeMatcherMacro.scala	/^  def notAnTypeMatcher(context: Context)(anType: context.Expr[ResultOfAnTypeInvocation[_]]): context.Expr[Matcher[Any]] = {$/;"	m
+notAnyRef	.tag_sources/scala/tools/nsc/typechecker/ContextErrors.scala	/^            val notAnyRef = ($/;"	V
+notAnyRefMessage	.tag_sources/scala/tools/nsc/typechecker/ContextErrors.scala	/^  def notAnyRefMessage(found: Type): String = {$/;"	m
+notAuthorized	.tag_sources/org/bouncycastle/asn1/cmp/PKIFailureInfo.java	/^    public static final int notAuthorized        = (1 << 16);$/;"	f	class:PKIFailureInfo
+notBefore	.tag_sources/org/bouncycastle/asn1/crmf/OptionalValidity.java	/^    private Time notBefore;$/;"	f	class:OptionalValidity	file:
+notBefore	.tag_sources/org/bouncycastle/x509/X509V2AttributeCertificate.java	/^    private Date                    notBefore;$/;"	f	class:X509V2AttributeCertificate	file:
+notBeforeTime	.tag_sources/org/bouncycastle/asn1/x509/AttCertValidityPeriod.java	/^    ASN1GeneralizedTime  notBeforeTime;$/;"	f	class:AttCertValidityPeriod
+notBlank	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends CharSequence> T notBlank(final T chars) {$/;"	m	class:Validate
+notBlank	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends CharSequence> T notBlank(final T chars, final String message, final Object... values) {$/;"	m	class:Validate
+notBlank	.tag_sources/org/apache/http/util/Args.java	/^    public static <T extends CharSequence> T notBlank(final T argument, final String name) {$/;"	m	class:Args
+notBlank	.tag_sources/org/apache/http/util/Asserts.java	/^    public static void notBlank(final CharSequence s, final String name) {$/;"	m	class:Asserts
+notBool	.tag_sources/org/scalactic/Bool.scala	/^  def notBool(bool: Bool, prettifier: Prettifier): Bool = new NotBool(bool, prettifier)$/;"	m
+notBool	.tag_sources/org/scalactic/BooleanMacro.scala	/^  def notBool(target: Tree, prettifierTree: Tree): Apply =$/;"	m
+notBridgeMethod	.tag_sources/javassist/bytecode/ClassFile.java	/^    private static boolean notBridgeMethod(MethodInfo minfo) {$/;"	m	class:ClassFile	file:
+notCRLF0	.tag_sources/scala/reflect/internal/util/SourceFile.scala	/^    def notCRLF0 = content(idx) != CR || !content.isDefinedAt(idx + 1) || content(idx + 1) != LF$/;"	m
+notCharRefCharsSorted	.tag_sources/org/jsoup/parser/Tokeniser.java	/^    private static final char[] notCharRefCharsSorted = new char[]{'\\t', '\\n', '\\r', '\\f', ' ', '<', '&'};$/;"	f	class:Tokeniser	file:
+notChecked	.tag_sources/scala/tools/nsc/backend/icode/ICodeCheckers.scala	/^    def notChecked(ts: TypeStack) = ts eq emptyStack$/;"	m
+notComplete	.tag_sources/org/eclipse/jetty/util/SharedBlockingCallback.java	/^    protected void notComplete(Blocker blocker)$/;"	m	class:SharedBlockingCallback
+notConfigured	.tag_sources/com/github/tomakehurst/wiremock/http/Response.java	/^	public static Response notConfigured() {$/;"	m	class:Response
+notConfigured	.tag_sources/com/github/tomakehurst/wiremock/http/ResponseDefinition.java	/^	public static ResponseDefinition notConfigured() {$/;"	m	class:ResponseDefinition
+notContains	.tag_sources/org/fluentlenium/core/filter/FilterBuilder.java	/^    public Filter notContains(Pattern equal) {$/;"	m	class:FilterBuilder
+notContains	.tag_sources/org/fluentlenium/core/filter/FilterBuilder.java	/^    public Filter notContains(String equal) {$/;"	m	class:FilterBuilder
+notContains	.tag_sources/org/fluentlenium/core/filter/MatcherConstructor.java	/^    public static Matcher notContains(Pattern pattern) {$/;"	m	class:MatcherConstructor
+notContains	.tag_sources/org/fluentlenium/core/filter/MatcherConstructor.java	/^    public static Matcher notContains(String matcher) {$/;"	m	class:MatcherConstructor
+notContains	.tag_sources/org/fluentlenium/core/wait/FluentWaitBuilder.java	/^    public FluentWaitMatcher notContains(Pattern equal) {$/;"	m	class:FluentWaitBuilder
+notContains	.tag_sources/org/fluentlenium/core/wait/FluentWaitBuilder.java	/^    public FluentWaitMatcher notContains(String equal) {$/;"	m	class:FluentWaitBuilder
+notDefinedHere	.tag_sources/javassist/Loader.java	/^    private Hashtable notDefinedHere; \/\/ must be atomic.$/;"	f	class:Loader	file:
+notDefinedPackages	.tag_sources/javassist/Loader.java	/^    private Vector notDefinedPackages; \/\/ must be atomic.$/;"	f	class:Loader	file:
+notDelegated	.tag_sources/javassist/Loader.java	/^    private boolean notDelegated(String name) {$/;"	m	class:Loader	file:
+notEmpty	.tag_sources/akka/util/BoundedBlockingQueue.scala	/^  private val notEmpty = lock.newCondition()$/;"	V
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(Collection collection) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(Collection collection, String message) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(Map map) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(Map map, String message) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(Object[] array) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(Object[] array, String message) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(String string) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notEmpty(String string, String message) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends CharSequence> T notEmpty(final T chars) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends CharSequence> T notEmpty(final T chars, final String message, final Object... values) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends Collection<?>> T notEmpty(final T collection) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends Collection<?>> T notEmpty(final T collection, final String message, final Object... values) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends Map<?, ?>> T notEmpty(final T map) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T extends Map<?, ?>> T notEmpty(final T map, final String message, final Object... values) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T> T[] notEmpty(final T[] array) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T> T[] notEmpty(final T[] array, final String message, final Object... values) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/apache/http/util/Args.java	/^    public static <E, T extends Collection<E>> T notEmpty(final T argument, final String name) {$/;"	m	class:Args
+notEmpty	.tag_sources/org/apache/http/util/Args.java	/^    public static <T extends CharSequence> T notEmpty(final T argument, final String name) {$/;"	m	class:Args
+notEmpty	.tag_sources/org/apache/http/util/Asserts.java	/^    public static void notEmpty(final CharSequence s, final String name) {$/;"	m	class:Asserts
+notEmpty	.tag_sources/org/jsoup/helper/Validate.java	/^    public static void notEmpty(String string) {$/;"	m	class:Validate
+notEmpty	.tag_sources/org/jsoup/helper/Validate.java	/^    public static void notEmpty(String string, String msg) {$/;"	m	class:Validate
+notEndsWith	.tag_sources/org/fluentlenium/core/filter/FilterBuilder.java	/^    public Filter notEndsWith(Pattern equal) {$/;"	m	class:FilterBuilder
+notEndsWith	.tag_sources/org/fluentlenium/core/filter/FilterBuilder.java	/^    public Filter notEndsWith(String equal) {$/;"	m	class:FilterBuilder
+notEndsWith	.tag_sources/org/fluentlenium/core/filter/MatcherConstructor.java	/^    public static Matcher notEndsWith(Pattern pattern) {$/;"	m	class:MatcherConstructor
+notEndsWith	.tag_sources/org/fluentlenium/core/filter/MatcherConstructor.java	/^    public static Matcher notEndsWith(String matcher) {$/;"	m	class:MatcherConstructor
+notEndsWith	.tag_sources/org/fluentlenium/core/wait/FluentWaitBuilder.java	/^    public FluentWaitMatcher notEndsWith(Pattern equal) {$/;"	m	class:FluentWaitBuilder
+notEndsWith	.tag_sources/org/fluentlenium/core/wait/FluentWaitBuilder.java	/^    public FluentWaitMatcher notEndsWith(String equal) {$/;"	m	class:FluentWaitBuilder
+notEnoughArgumentsMsg	.tag_sources/scala/tools/nsc/typechecker/ContextErrors.scala	/^        val notEnoughArgumentsMsg = {$/;"	V
+notEqual	.tag_sources/org/apache/commons/lang/ObjectUtils.java	/^    public static boolean notEqual(Object object1, Object object2) {$/;"	m	class:ObjectUtils
+notEqual	.tag_sources/org/apache/commons/lang3/ObjectUtils.java	/^    public static boolean notEqual(final Object object1, final Object object2) {$/;"	m	class:ObjectUtils
+notEqualTo	.tag_sources/org/fluentlenium/core/wait/FluentSizeBuilder.java	/^    public void notEqualTo(final int size) {$/;"	m	class:FluentSizeBuilder
+notEqualToMessage	.tag_sources/org/fluentlenium/core/wait/WaitMessage.java	/^    static final String notEqualToMessage(String selector, int size) {$/;"	m	class:WaitMessage
+notEquals	.tag_sources/org/apache/xpath/objects/XNodeSet.java	/^  public boolean notEquals(XObject obj2) throws javax.xml.transform.TransformerException$/;"	m	class:XNodeSet
+notEquals	.tag_sources/org/apache/xpath/objects/XObject.java	/^  public boolean notEquals(XObject obj2)$/;"	m	class:XObject
+notExcludedClasses	.tag_sources/scala/tools/nsc/doc/Settings.scala	/^    private val notExcludedClasses = Set($/;"	V
+notFileFilter	.tag_sources/org/apache/commons/io/filefilter/FileFilterUtils.java	/^    public static IOFileFilter notFileFilter(IOFileFilter filter) {$/;"	m	class:FileFilterUtils
+notFinalOrStatic	.tag_sources/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java	/^    private final ListUtil.Filter<Field> notFinalOrStatic = new ListUtil.Filter<Field>() {$/;"	f	class:PropertyAndSetterInjection	file:
+notFindInArray	.tag_sources/javassist/CtClassType.java	/^    private static boolean notFindInArray(String prefix, String[] values) {$/;"	m	class:CtClassType	file:
+notFound	.tag_sources/com/github/tomakehurst/wiremock/http/ResponseDefinition.java	/^	public static ResponseDefinition notFound() {$/;"	m	class:ResponseDefinition
+notFound	.tag_sources/org/mortbay/jetty/servlet/ServletHandler.java	/^    protected void notFound(HttpServletRequest request,$/;"	m	class:ServletHandler
+notFound	.tag_sources/play/api/controllers/Assets.scala	/^    def notFound = errorHandler.onClientError(request, NOT_FOUND, "Resource not found by Assets controller")$/;"	m
+notFound	.tag_sources/play/api/controllers/Default.scala	/^  def notFound: Action[AnyContent] = Action {$/;"	m
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(Chunks<?> chunks) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(Content content) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(Content content, String charset) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(File content) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(File content, String filename) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(File content, boolean inline) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(InputStream content) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(InputStream content, long contentLength) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(JsonNode content) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(JsonNode content, JsonEncoding encoding) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(JsonNode content, String charset) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(String content) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(String content, String charset) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static Result notFound(byte[] content) {$/;"	m	class:Results
+notFound	.tag_sources/play/mvc/Results.java	/^    public static StatusHeader notFound() {$/;"	m	class:Results
+notFound	.tag_sources/scala/collection/mutable/HashMap.scala	/^  private[this] def notFound(key: A, e: Entry): Boolean = (e != null) && !elemEquals(e.key, key)$/;"	m
+notFound	.tag_sources/scala/reflect/internal/MissingRequirementError.scala	/^  def notFound(req: String): Nothing = signal(req + suffix)$/;"	m
+notFound	.tag_sources/views/html/defaultpages/notFound.template.scala	/^class notFound extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template2[String,String,play.twirl.api.HtmlFormat.Appendable] {$/;"	c
+notFound	.tag_sources/views/html/defaultpages/notFound.template.scala	/^object notFound extends notFound_Scope0.notFound$/;"	o
+notFoundError	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/ScriptRuntime.java	/^    public static RuntimeException notFoundError(Scriptable object,$/;"	m	class:ScriptRuntime
+notFoundHandler	.tag_sources/play/api/GlobalSettings.scala	/^    def notFoundHandler = Action.async(BodyParsers.parse.empty)(req =>$/;"	m
+notFoundHandler	.tag_sources/play/api/http/HttpRequestHandler.scala	/^    def notFoundHandler = Action.async(BodyParsers.parse.empty)(req =>$/;"	m
+notFoundMessage	.tag_sources/uk/gov/hmrc/http/HttpErrorFunctions.scala	/^  def notFoundMessage(verbName: String, url: String, responseBody: String): String = {$/;"	m
+notFoundTemplate	.tag_sources/uk/gov/hmrc/play/bootstrap/http/FrontendErrorHandler.scala	/^  def notFoundTemplate(implicit request: Request[_]): Html =$/;"	m
+notFound_Scope0	.tag_sources/views/html/defaultpages/notFound.template.scala	/^     object notFound_Scope0 {$/;"	o
+notFull	.tag_sources/akka/dispatch/Mailbox.scala	/^    private final val notFull = putLock.newCondition()$/;"	V
+notFull	.tag_sources/akka/util/BoundedBlockingQueue.scala	/^  private val notFull = lock.newCondition()$/;"	V
+notFunctionError	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/ScriptRuntime.java	/^    public static RuntimeException notFunctionError(Object obj, Object value,$/;"	m	class:ScriptRuntime
+notFunctionError	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/ScriptRuntime.java	/^    public static RuntimeException notFunctionError(Object value) {$/;"	m	class:ScriptRuntime
+notFunctionError	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/ScriptRuntime.java	/^    public static RuntimeException notFunctionError(Object value,$/;"	m	class:ScriptRuntime
+notHandledFun	.tag_sources/akka/actor/Actor.scala	/^  private final val notHandledFun = (_: Any) ⇒ NotHandled$/;"	V
+notIdle	.tag_sources/org/eclipse/jetty/io/IdleTimeout.java	/^    public void notIdle()$/;"	m	class:IdleTimeout
+notInUnquotedText	.tag_sources/com/typesafe/config/impl/Tokenizer.java	/^        static final String notInUnquotedText = "$\\"{}[]:=,+#`^?!@*&\\\\";$/;"	f	class:Tokenizer.TokenIterator
+notLabel	.tag_sources/play/doc/PlayDoc.scala	/^            val notLabel = (s: String) => labelPattern.findFirstIn(s).isEmpty$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/DigitCharMacro.scala	/^    val notLiteralMsg =$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/DigitStringMacro.scala	/^    val notLiteralMsg =$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/GuessANumberMacros.scala	/^    val notLiteralMsg =$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosDoubleMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosDouble$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosFloatMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosFloat$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosIntMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosInt$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosLongMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosLong$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosZDoubleMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosZDouble$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosZFloatMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosZFloat$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosZIntMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosZInt$/;"	V
+notLiteralMsg	.tag_sources/org/scalactic/anyvals/PosZLongMacro.scala	/^    val notLiteralMsg = Resources.notLiteralPosZLong$/;"	V
+notMarkedAsAMockitoMock	.tag_sources/org/mockito/internal/creation/cglib/AcrossJVMSerializationFeature.java	/^        private boolean notMarkedAsAMockitoMock(Object marker) throws IOException, ClassNotFoundException {$/;"	m	class:AcrossJVMSerializationFeature.MockitoMockObjectInputStream	file:
+notMarkedWithNoAutoStart	.tag_sources/ch/qos/logback/core/joran/spi/NoAutoStartUtil.java	/^    static public boolean notMarkedWithNoAutoStart(Object o) {$/;"	m	class:NoAutoStartUtil
+notMatchPatternMatcher	.tag_sources/org/scalatest/matchers/MatchPatternHelper.scala	/^  def notMatchPatternMatcher(right: PartialFunction[Any, _]): Matcher[Any] =$/;"	m
+notMatchPatternMatcher	.tag_sources/org/scalatest/matchers/MatchPatternMacro.scala	/^  def notMatchPatternMatcher(context: Context)(right: context.Expr[PartialFunction[Any, _]]): context.Expr[Matcher[Any]] =$/;"	m
+notMatchPatternMatcherTree	.tag_sources/org/scalatest/matchers/MatchPatternMacro.scala	/^  def notMatchPatternMatcherTree(context: Context)(right: context.Expr[PartialFunction[Any, _]]): context.Tree = {$/;"	m
+notMatched	.tag_sources/org/hamcrest/Condition.java	/^    public static <T> Condition<T> notMatched() {$/;"	m	class:Condition
+notMatcher	.tag_sources/org/scalatest/matchers/MatchPatternMacro.scala	/^    val notMatcher = notMatchPatternMatcherTree(context)(right)$/;"	V
+notMatching	.tag_sources/com/github/tomakehurst/wiremock/client/WireMock.java	/^	public static ValueMatchingStrategy notMatching(String value) {$/;"	m	class:WireMock
+notNegative	.tag_sources/org/apache/http/util/Args.java	/^    public static int notNegative(final int n, final String name) {$/;"	m	class:Args
+notNegative	.tag_sources/org/apache/http/util/Args.java	/^    public static long notNegative(final long n, final String name) {$/;"	m	class:Args
+notNull	.tag_sources/com/gargoylesoftware/htmlunit/WebAssert.java	/^    public static void notNull(final String description, final Object object) {$/;"	m	class:WebAssert
+notNull	.tag_sources/com/google/common/base/Predicates.java	/^  public static <T> Predicate<T> notNull() {$/;"	m	class:Predicates
+notNull	.tag_sources/com/google/common/collect/MapConstraints.java	/^  public static MapConstraint<Object, Object> notNull() {$/;"	m	class:MapConstraints
+notNull	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notNull(Object object) {$/;"	m	class:Validate
+notNull	.tag_sources/org/apache/commons/lang/Validate.java	/^    public static void notNull(Object object, String message) {$/;"	m	class:Validate
+notNull	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T> T notNull(final T object) {$/;"	m	class:Validate
+notNull	.tag_sources/org/apache/commons/lang3/Validate.java	/^    public static <T> T notNull(final T object, final String message, final Object... values) {$/;"	m	class:Validate
+notNull	.tag_sources/org/apache/http/util/Args.java	/^    public static <T> T notNull(final T argument, final String name) {$/;"	m	class:Args
+notNull	.tag_sources/org/apache/http/util/Asserts.java	/^    public static void notNull(final Object object, final String name) {$/;"	m	class:Asserts
+notNull	.tag_sources/org/jsoup/helper/Validate.java	/^    public static void notNull(Object obj) {$/;"	m	class:Validate
+notNull	.tag_sources/org/jsoup/helper/Validate.java	/^    public static void notNull(Object obj, String msg) {$/;"	m	class:Validate
+notNull	.tag_sources/org/junit/runners/parameterized/TestWithParameters.java	/^    private static void notNull(Object value, String message) {$/;"	m	class:TestWithParameters	file:
+notNull	.tag_sources/org/mockito/Matchers.java	/^    public static <T> T notNull(Class<T> clazz) {$/;"	m	class:Matchers
+notNull	.tag_sources/org/mockito/Matchers.java	/^    public static Object notNull() {$/;"	m	class:Matchers
+notNull	.tag_sources/org/mockito/internal/util/reflection/Fields.java	/^        public InstanceFields notNull() {$/;"	m	class:Fields.InstanceFields
+notNull	.tag_sources/org/parboiled/common/Predicates.java	/^    public static <T> Predicate<T> notNull() {$/;"	m	class:Predicates
+notNullValue	.tag_sources/org/hamcrest/CoreMatchers.java	/^  public static <T> org.hamcrest.Matcher<T> notNullValue(java.lang.Class<T> type) {$/;"	m	class:CoreMatchers
+notNullValue	.tag_sources/org/hamcrest/CoreMatchers.java	/^  public static org.hamcrest.Matcher<java.lang.Object> notNullValue() {$/;"	m	class:CoreMatchers
+notNullValue	.tag_sources/org/hamcrest/core/IsNull.java	/^    public static <T> Matcher<T> notNullValue(Class<T> type) {$/;"	m	class:IsNull
+notNullValue	.tag_sources/org/hamcrest/core/IsNull.java	/^    public static Matcher<Object> notNullValue() {$/;"	m	class:IsNull
+notOVERRIDE	.tag_sources/scala/reflect/internal/Flags.scala	/^  final val notOVERRIDE   = (OVERRIDE: Long) << AntiShift$/;"	V
+notPRIVATE	.tag_sources/scala/reflect/internal/Flags.scala	/^  final val notPRIVATE    = (PRIVATE: Long) << AntiShift$/;"	V
+notPROTECTED	.tag_sources/scala/reflect/internal/Flags.scala	/^  final val notPROTECTED  = (PROTECTED: Long) << AntiShift$/;"	V
+notProjection	.tag_sources/scala/collection/mutable/TreeSet.scala	/^  private val notProjection = !(from.isDefined || until.isDefined)$/;"	V
+notQuiteTwo	.tag_sources/org/bouncycastle/crypto/test/NISTCTSTest.java	/^    private static byte[] notQuiteTwo = Hex.decode("4920616d206e6f742071756974652074776f2e2e2e");$/;"	f	class:NISTCTSTest	file:
+notResolved	.tag_sources/com/typesafe/config/impl/ConfigConcatenation.java	/^    private ConfigException.NotResolved notResolved() {$/;"	m	class:ConfigConcatenation	file:
+notResolved	.tag_sources/com/typesafe/config/impl/ConfigDelayedMergeObject.java	/^    private static ConfigException notResolved() {$/;"	m	class:ConfigDelayedMergeObject	file:
+notResolved	.tag_sources/com/typesafe/config/impl/ConfigReference.java	/^    private ConfigException.NotResolved notResolved() {$/;"	m	class:ConfigReference	file:
+notStartsWith	.tag_sources/org/fluentlenium/core/filter/FilterBuilder.java	/^    public Filter notStartsWith(Pattern equal) {$/;"	m	class:FilterBuilder
+notStartsWith	.tag_sources/org/fluentlenium/core/filter/FilterBuilder.java	/^    public Filter notStartsWith(String equal) {$/;"	m	class:FilterBuilder
+notStartsWith	.tag_sources/org/fluentlenium/core/filter/MatcherConstructor.java	/^    public static Matcher notStartsWith(Pattern pattern) {$/;"	m	class:MatcherConstructor
+notStartsWith	.tag_sources/org/fluentlenium/core/filter/MatcherConstructor.java	/^    public static Matcher notStartsWith(String matcher) {$/;"	m	class:MatcherConstructor
+notStartsWith	.tag_sources/org/fluentlenium/core/wait/FluentWaitBuilder.java	/^    public FluentWaitMatcher notStartsWith(Pattern equal) {$/;"	m	class:FluentWaitBuilder
+notStartsWith	.tag_sources/org/fluentlenium/core/wait/FluentWaitBuilder.java	/^    public FluentWaitMatcher notStartsWith(String equal) {$/;"	m	class:FluentWaitBuilder
+notTestNot	.tag_sources/org/parboiled/parserunners/ErrorLocatingParseRunner.java	/^    private boolean notTestNot(MatcherContext context) {$/;"	m	class:ErrorLocatingParseRunner	file:
+notUsingDefaults	.tag_sources/scala/tools/nsc/typechecker/Infer.scala	/^        def notUsingDefaults = varargsTarget || paramsCount <= argsCount$/;"	m
+notValidMsg	.tag_sources/org/scalactic/anyvals/DigitCharMacro.scala	/^    val notValidMsg =$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/DigitStringMacro.scala	/^    val notValidMsg =$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/GuessANumberMacros.scala	/^    val notValidMsg =$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosDoubleMacro.scala	/^    val notValidMsg = Resources.notValidPosDouble$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosFloatMacro.scala	/^    val notValidMsg = Resources.notValidPosFloat$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosIntMacro.scala	/^    val notValidMsg = Resources.notValidPosInt$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosLongMacro.scala	/^    val notValidMsg = Resources.notValidPosLong$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosZDoubleMacro.scala	/^    val notValidMsg = Resources.notValidPosZDouble$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosZFloatMacro.scala	/^    val notValidMsg = Resources.notValidPosZFloat$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosZIntMacro.scala	/^    val notValidMsg = Resources.notValidPosZInt$/;"	V
+notValidMsg	.tag_sources/org/scalactic/anyvals/PosZLongMacro.scala	/^    val notValidMsg = Resources.notValidPosZLong$/;"	V
+notXmlError	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/ScriptRuntime.java	/^    private static RuntimeException notXmlError(Object value) {$/;"	m	class:ScriptRuntime	file:
+notYoungerThan	.tag_sources/org/bouncycastle/asn1/isismtt/x509/DeclarationOfMajority.java	/^    public int notYoungerThan()$/;"	m	class:DeclarationOfMajority
+notYoungerThan	.tag_sources/org/bouncycastle/asn1/isismtt/x509/DeclarationOfMajority.java	/^    public static final int notYoungerThan = 0;$/;"	f	class:DeclarationOfMajority
+not_equals	.tag_sources/net/sf/cglib/core/EmitUtils.java	/^    public static void not_equals(final CodeEmitter e, Type type, final Label notEquals, final Customizer customizer) {$/;"	m	class:EmitUtils
+not_equals	.tag_sources/org/mockito/cglib/core/EmitUtils.java	/^    public static void not_equals(final CodeEmitter e, Type type, final Label notEquals, final Customizer customizer) {$/;"	m	class:EmitUtils
+not_equals_helper	.tag_sources/net/sf/cglib/core/EmitUtils.java	/^    private static void not_equals_helper(CodeEmitter e,$/;"	m	class:EmitUtils	file:
+not_equals_helper	.tag_sources/org/mockito/cglib/core/EmitUtils.java	/^    private static void not_equals_helper(CodeEmitter e,$/;"	m	class:EmitUtils	file:
+notat	.tag_sources/scala/xml/parsing/MarkupParser.scala	/^            val notat = xName$/;"	V
+notat	.tag_sources/scala/xml/parsing/MarkupParser.scala	/^    val notat = xName$/;"	V
+notation	.tag_sources/org/apache/xerces/impl/XMLEntityManager.java	/^        public String notation;$/;"	f	class:XMLEntityManager.ExternalEntity
+notation	.tag_sources/org/apache/xerces/impl/dtd/XMLEntityDecl.java	/^    public String notation;$/;"	f	class:XMLEntityDecl
+notation	.tag_sources/org/apache/xerces/xinclude/XIncludeHandler.java	/^        public String notation;$/;"	f	class:XIncludeHandler.UnparsedEntity
+notation	.tag_sources/org/bouncycastle/asn1/gnu/GNUObjectIdentifiers.java	/^    public static final ASN1ObjectIdentifier notation = new ASN1ObjectIdentifier("1.3.6.1.4.1.11591.2.1"); \/\/ notation$/;"	f	interface:GNUObjectIdentifiers
+notationDecl	.tag_sources/org/apache/xalan/processor/StylesheetHandler.java	/^  public void notationDecl(String name, String publicId, String systemId)$/;"	m	class:StylesheetHandler
+notationDecl	.tag_sources/org/apache/xalan/processor/XSLTElementProcessor.java	/^  public void notationDecl(StylesheetHandler handler, String name,$/;"	m	class:XSLTElementProcessor
+notationDecl	.tag_sources/org/apache/xalan/transformer/TransformerHandlerImpl.java	/^  public void notationDecl(String name, String publicId, String systemId)$/;"	m	class:TransformerHandlerImpl
+notationDecl	.tag_sources/org/apache/xalan/transformer/TransformerIdentityImpl.java	/^  public void notationDecl(String name, String publicId, String systemId)$/;"	m	class:TransformerIdentityImpl
+notationDecl	.tag_sources/org/apache/xalan/xsltc/trax/TransformerHandlerImpl.java	/^    public void notationDecl(String name, String publicId, String systemId) $/;"	m	class:TransformerHandlerImpl
+notationDecl	.tag_sources/org/apache/xerces/impl/dtd/DTDGrammar.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	class:DTDGrammar
+notationDecl	.tag_sources/org/apache/xerces/impl/dtd/XMLDTDProcessor.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	class:XMLDTDProcessor
+notationDecl	.tag_sources/org/apache/xerces/impl/xs/opti/DefaultXMLDocumentHandler.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	class:DefaultXMLDocumentHandler
+notationDecl	.tag_sources/org/apache/xerces/jaxp/UnparsedEntityHandler.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	class:UnparsedEntityHandler
+notationDecl	.tag_sources/org/apache/xerces/jaxp/validation/ValidatorHandlerImpl.java	/^    public void notationDecl(String name, String publicId, $/;"	m	class:ValidatorHandlerImpl
+notationDecl	.tag_sources/org/apache/xerces/parsers/AbstractDOMParser.java	/^    public void notationDecl (String name, XMLResourceIdentifier identifier,$/;"	m	class:AbstractDOMParser
+notationDecl	.tag_sources/org/apache/xerces/parsers/AbstractSAXParser.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	class:AbstractSAXParser
+notationDecl	.tag_sources/org/apache/xerces/parsers/AbstractXMLDocumentParser.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier, $/;"	m	class:AbstractXMLDocumentParser
+notationDecl	.tag_sources/org/apache/xerces/parsers/DOMParserImpl.java	/^        public void notationDecl(String name, XMLResourceIdentifier identifier, Augmentations augmentations) throws XNIException {$/;"	m	class:DOMParserImpl.AbortHandler
+notationDecl	.tag_sources/org/apache/xerces/parsers/DTDParser.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	class:DTDParser
+notationDecl	.tag_sources/org/apache/xerces/xinclude/XIncludeHandler.java	/^    public void notationDecl($/;"	m	class:XIncludeHandler
+notationDecl	.tag_sources/org/apache/xerces/xni/XMLDTDHandler.java	/^    public void notationDecl(String name, XMLResourceIdentifier identifier,$/;"	m	interface:XMLDTDHandler
+notationDecl	.tag_sources/org/apache/xml/dtm/ref/IncrementalSAXSource_Filter.java	/^  public void notationDecl(String a, String b, String c) throws SAXException$/;"	m	class:IncrementalSAXSource_Filter
+notationDecl	.tag_sources/org/apache/xml/dtm/ref/sax2dtm/SAX2DTM.java	/^  public void notationDecl(String name, String publicId, String systemId)$/;"	m	class:SAX2DTM
+notationDecl	.tag_sources/org/apache/xml/serialize/BaseMarkupSerializer.java	/^    public void notationDecl( String name, String publicId, String systemId )$/;"	m	class:BaseMarkupSerializer
+notationDecl	.tag_sources/org/apache/xml/serializer/EmptySerializer.java	/^    public void notationDecl(String arg0, String arg1, String arg2) throws SAXException $/;"	m	class:EmptySerializer
+notationDecl	.tag_sources/org/apache/xml/serializer/SerializerBase.java	/^    public void notationDecl(String arg0, String arg1, String arg2)$/;"	m	class:SerializerBase
+notationDecl	.tag_sources/org/apache/xml/serializer/ToStream.java	/^    public void notationDecl(String name, String pubID, String sysID) throws SAXException {$/;"	m	class:ToStream
+notationDecl	.tag_sources/org/xml/sax/DTDHandler.java	/^    public abstract void notationDecl (String name,$/;"	m	interface:DTDHandler
+notationDecl	.tag_sources/org/xml/sax/HandlerBase.java	/^    public void notationDecl (String name, String publicId, String systemId)$/;"	m	class:HandlerBase
+notationDecl	.tag_sources/org/xml/sax/helpers/DefaultHandler.java	/^    public void notationDecl (String name, String publicId, String systemId)$/;"	m	class:DefaultHandler
+notationDecl	.tag_sources/org/xml/sax/helpers/XMLFilterImpl.java	/^    public void notationDecl (String name, String publicId, String systemId)$/;"	m	class:XMLFilterImpl
+notationDecl	.tag_sources/scala/xml/parsing/MarkupHandler.scala	/^  def notationDecl(notat: String, extID: ExternalID): Unit = ()$/;"	m
+notationDecl	.tag_sources/scala/xml/parsing/MarkupParser.scala	/^  def notationDecl() {$/;"	m
+notationDecl	.tag_sources/scala/xml/parsing/ValidatingMarkupHandler.scala	/^  final override def notationDecl(notat: String, extID: ExternalID) {$/;"	m
+notationName	.tag_sources/org/apache/xerces/dom/EntityImpl.java	/^    protected String notationName;$/;"	f	class:EntityImpl
+notations	.tag_sources/org/apache/xerces/dom/DocumentTypeImpl.java	/^    protected NamedNodeMapImpl notations;$/;"	f	class:DocumentTypeImpl
+notations	.tag_sources/scala/xml/Document.scala	/^  def notations: Seq[scala.xml.dtd.NotationDecl] =$/;"	m
+notations	.tag_sources/scala/xml/dtd/DTD.scala	/^  def notations: Seq[NotationDecl] = Nil$/;"	m
+note	.tag_sources/org/scalatest/AsyncFeatureSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/AsyncFlatSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/AsyncFreeSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/AsyncFunSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/AsyncFunSuiteLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/AsyncWordSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/DocSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/FeatureSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/FlatSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/FreeSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/FunSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/FunSuiteLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/Notifying.scala	/^  protected def note: Notifier$/;"	m
+note	.tag_sources/org/scalatest/PropSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/WordSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/AsyncFeatureSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/AsyncFlatSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/AsyncFreeSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/AsyncFunSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/AsyncFunSuiteLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/AsyncWordSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/FeatureSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/FlatSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/FreeSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/FunSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/FunSuiteLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/PropSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/SpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/fixture/WordSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/path/FreeSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/path/FunSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/org/scalatest/refspec/RefSpecLike.scala	/^  protected def note: Notifier = atomicNotifier.get$/;"	m
+note	.tag_sources/scala/tools/nsc/doc/base/CommentFactoryBase.scala	/^    val note           = note0$/;"	V
+note	.tag_sources/scala/tools/nsc/doc/base/comment/Comment.scala	/^  def note: List[Body]$/;"	m
+note	.tag_sources/scala/tools/nsc/doc/html/page/Template.scala	/^        val note: NodeSeq =$/;"	V
+note	.tag_sources/scala/tools/nsc/plugins/Plugins.scala	/^      def note(msg: String): Unit = if (settings.verbose) inform(msg format plug.name)$/;"	m
+note	.tag_sources/scala/tools/nsc/typechecker/ContextErrors.scala	/^      val note = "failed to determine if '"+ param.name + " = ...' is a named argument or an assignment expression.\\n"+$/;"	V
+noteProvidedFragments	.tag_sources/org/scalatest/tools/StringReporter.scala	/^  def noteProvidedFragments($/;"	m
+noteProvidedIcon	.tag_sources/org/scalatest/tools/IconEmbellishedListCellRenderer.scala	/^    val noteProvidedIcon = greenImageIcon$/;"	V
+noteProvidedSelIcon	.tag_sources/org/scalatest/tools/IconEmbellishedListCellRenderer.scala	/^    val noteProvidedSelIcon = greenSelImageIcon$/;"	V
+noteXml	.tag_sources/scala/tools/nsc/doc/html/page/Template.scala	/^              val noteXml: List[NodeSeq] =  for(note <- comment.note ) yield <span class="cmt">{bodyToHtml(note)}<\/span>$/;"	V
+notequals	.tag_sources/org/apache/xpath/compiler/Compiler.java	/^  protected Expression notequals(int opPos) throws TransformerException$/;"	m	class:Compiler
+nothingCatcher	.tag_sources/scala/util/control/Exception.scala	/^  final val nothingCatcher: Catcher[Nothing]  = mkThrowableCatcher(_ => false, throw _)$/;"	V
+nothingMatchers	.tag_sources/org/parboiled/ParserStatistics.java	/^    private final Set<NothingMatcher> nothingMatchers = new HashSet<NothingMatcher>();$/;"	f	class:ParserStatistics	file:
+noticeNumbers	.tag_sources/org/bouncycastle/asn1/x509/NoticeReference.java	/^    private ASN1Sequence noticeNumbers;$/;"	f	class:NoticeReference	file:
+noticeRef	.tag_sources/org/bouncycastle/asn1/esf/SPUserNotice.java	/^    private NoticeReference noticeRef;$/;"	f	class:SPUserNotice	file:
+noticeRef	.tag_sources/org/bouncycastle/asn1/x509/UserNotice.java	/^    private final NoticeReference noticeRef;$/;"	f	class:UserNotice	file:
+notification	.tag_sources/scala/tools/nsc/interpreter/MemberHandlers.scala	/^    def notification(req: Request) = s"defined term macro $name: ${req.typeOf(name)}"$/;"	m
+notification	.tag_sources/scala/tools/nsc/interpreter/MemberHandlers.scala	/^    def notification(req: Request): String$/;"	m
+notifications	.tag_sources/org/bouncycastle/x509/PKIXCertPathReviewer.java	/^    protected List[] notifications;$/;"	f	class:PKIXCertPathReviewer
+notifier	.tag_sources/com/github/tomakehurst/wiremock/WireMockServer.java	/^	private final Notifier notifier;$/;"	f	class:WireMockServer	file:
+notifier	.tag_sources/com/github/tomakehurst/wiremock/common/LocalNotifier.java	/^	public static Notifier notifier() {$/;"	m	class:LocalNotifier
+notifier	.tag_sources/com/github/tomakehurst/wiremock/core/Options.java	/^    Notifier notifier();$/;"	m	interface:Options
+notifier	.tag_sources/com/github/tomakehurst/wiremock/core/WireMockConfiguration.java	/^    private Notifier notifier = new Slf4jNotifier(false);$/;"	f	class:WireMockConfiguration	file:
+notifier	.tag_sources/com/github/tomakehurst/wiremock/core/WireMockConfiguration.java	/^    public Notifier notifier() {$/;"	m	class:WireMockConfiguration
+notifier	.tag_sources/com/github/tomakehurst/wiremock/core/WireMockConfiguration.java	/^    public WireMockConfiguration notifier(Notifier notifier) {$/;"	m	class:WireMockConfiguration
+notifier	.tag_sources/com/github/tomakehurst/wiremock/jetty6/Jetty6HandlerDispatchingServlet.java	/^	private Notifier notifier;$/;"	f	class:Jetty6HandlerDispatchingServlet	file:
+notifier	.tag_sources/com/github/tomakehurst/wiremock/jetty6/LoggerAdapter.java	/^    private final Notifier notifier;$/;"	f	class:LoggerAdapter	file:
+notifier	.tag_sources/com/github/tomakehurst/wiremock/standalone/CommandLineOptions.java	/^    public Notifier notifier() {$/;"	m	class:CommandLineOptions
+notifier	.tag_sources/org/junit/internal/runners/ClassRoadie.java	/^    private RunNotifier notifier;$/;"	f	class:ClassRoadie	file:
+notifier	.tag_sources/org/junit/internal/runners/JUnit38ClassRunner.java	/^        private final RunNotifier notifier;$/;"	f	class:JUnit38ClassRunner.OldTestClassAdaptingListener	file:
+notifier	.tag_sources/org/junit/internal/runners/MethodRoadie.java	/^    private final RunNotifier notifier;$/;"	f	class:MethodRoadie	file:
+notifier	.tag_sources/org/junit/internal/runners/model/EachTestNotifier.java	/^    private final RunNotifier notifier;$/;"	f	class:EachTestNotifier	file:
+notifier	.tag_sources/org/junit/runner/JUnitCore.java	/^    private final RunNotifier notifier = new RunNotifier();$/;"	f	class:JUnitCore	file:
+notifier	.tag_sources/org/mockito/internal/runners/util/FrameworkUsageValidator.java	/^    private final RunNotifier notifier;$/;"	f	class:FrameworkUsageValidator	file:
+notifierHolder	.tag_sources/com/github/tomakehurst/wiremock/common/LocalNotifier.java	/^	private static ThreadLocal<Notifier> notifierHolder = new ThreadLocal<Notifier>();$/;"	f	class:LocalNotifier	file:
+notifies	.tag_sources/akka/actor/FSM.scala	/^    private[akka] def notifies: Boolean = true$/;"	m
+notifies	.tag_sources/akka/actor/FSM.scala	/^    private[akka] override def notifies: Boolean = false$/;"	m
+notify	.tag_sources/com/gargoylesoftware/htmlunit/IncorrectnessListener.java	/^    void notify(final String message, final Object origin);$/;"	m	interface:IncorrectnessListener
+notify	.tag_sources/com/gargoylesoftware/htmlunit/IncorrectnessListenerImpl.java	/^    public void notify(final String message, final Object origin) {$/;"	m	class:IncorrectnessListenerImpl
+notify	.tag_sources/com/google/inject/internal/BoundProviderFactory.java	/^  public void notify(Errors errors) {$/;"	m	class:BoundProviderFactory
+notify	.tag_sources/com/google/inject/internal/CreationListener.java	/^  void notify(Errors errors);$/;"	m	interface:CreationListener
+notify	.tag_sources/com/google/inject/internal/ExposedKeyFactory.java	/^  public void notify(Errors errors) {$/;"	m	class:ExposedKeyFactory
+notify	.tag_sources/com/google/inject/internal/FactoryProxy.java	/^  public void notify(final Errors errors) {$/;"	m	class:FactoryProxy
+notify	.tag_sources/com/sun/jna/platform/FileMonitor.java	/^    protected void notify(FileEvent e) {$/;"	m	class:FileMonitor
+notify	.tag_sources/scala/collection/mutable/History.scala	/^  def notify(pub: Pub, event: Evt) {$/;"	m
+notify	.tag_sources/scala/collection/mutable/Subscriber.scala	/^  def notify(pub: Pub, event: Evt): Unit$/;"	m
+notifyAlertRaised	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsPeer.java	/^    public void notifyAlertRaised(short alertLevel, short alertDescription, String message, Throwable cause)$/;"	m	class:AbstractTlsPeer
+notifyAlertRaised	.tag_sources/org/bouncycastle/crypto/tls/TlsPeer.java	/^    void notifyAlertRaised(short alertLevel, short alertDescription, String message, Throwable cause);$/;"	m	interface:TlsPeer
+notifyAlertReceived	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsPeer.java	/^    public void notifyAlertReceived(short alertLevel, short alertDescription)$/;"	m	class:AbstractTlsPeer
+notifyAlertReceived	.tag_sources/org/bouncycastle/crypto/tls/TlsPeer.java	/^    void notifyAlertReceived(short alertLevel, short alertDescription);$/;"	m	interface:TlsPeer
+notifyAll_	.tag_sources/scala/reflect/internal/StdNames.scala	/^    val notifyAll_ : NameType          = "notifyAll"$/;"	V
+notifyBlockedBarrierMembers	.tag_sources/scala/concurrent/stm/ccstm/TxnLevelImpl.scala	/^  def notifyBlockedBarrierMembers() {$/;"	m
+notifyByteListeners	.tag_sources/org/asynchttpclient/netty/ws/NettyWebSocket.java	/^    private void notifyByteListeners(byte[] message) {$/;"	m	class:NettyWebSocket	file:
+notifyCallbackFailure	.tag_sources/org/eclipse/jetty/websocket/common/extensions/ExtensionStack.java	/^        private void notifyCallbackFailure(WriteCallback callback, Throwable failure)$/;"	m	class:ExtensionStack.Flusher	file:
+notifyCallbackFailure	.tag_sources/org/eclipse/jetty/websocket/common/extensions/compress/CompressExtension.java	/^    protected void notifyCallbackFailure(WriteCallback callback, Throwable failure)$/;"	m	class:CompressExtension
+notifyCallbackFailure	.tag_sources/org/eclipse/jetty/websocket/common/extensions/fragment/FragmentExtension.java	/^        private void notifyCallbackFailure(WriteCallback callback, Throwable failure)$/;"	m	class:FragmentExtension.Flusher	file:
+notifyCallbackFailure	.tag_sources/org/eclipse/jetty/websocket/common/io/FrameFlusher.java	/^    protected void notifyCallbackFailure(WriteCallback callback, Throwable failure)$/;"	m	class:FrameFlusher
+notifyCallbackSuccess	.tag_sources/org/eclipse/jetty/websocket/common/extensions/ExtensionStack.java	/^        private void notifyCallbackSuccess(WriteCallback callback)$/;"	m	class:ExtensionStack.Flusher	file:
+notifyCallbackSuccess	.tag_sources/org/eclipse/jetty/websocket/common/extensions/compress/CompressExtension.java	/^    protected void notifyCallbackSuccess(WriteCallback callback)$/;"	m	class:CompressExtension
+notifyCallbackSuccess	.tag_sources/org/eclipse/jetty/websocket/common/extensions/fragment/FragmentExtension.java	/^        private void notifyCallbackSuccess(WriteCallback callback)$/;"	m	class:FragmentExtension.Flusher	file:
+notifyCallbackSuccess	.tag_sources/org/eclipse/jetty/websocket/common/io/FrameFlusher.java	/^    protected void notifyCallbackSuccess(WriteCallback callback)$/;"	m	class:FrameFlusher
+notifyClientCertificate	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsServer.java	/^    public void notifyClientCertificate(Certificate clientCertificate)$/;"	m	class:AbstractTlsServer
+notifyClientCertificate	.tag_sources/org/bouncycastle/crypto/tls/DTLSServerProtocol.java	/^    protected void notifyClientCertificate(ServerHandshakeState state, Certificate clientCertificate)$/;"	m	class:DTLSServerProtocol
+notifyClientCertificate	.tag_sources/org/bouncycastle/crypto/tls/TlsServer.java	/^    void notifyClientCertificate(Certificate clientCertificate)$/;"	m	interface:TlsServer
+notifyClientCertificate	.tag_sources/org/bouncycastle/crypto/tls/TlsServerProtocol.java	/^    protected void notifyClientCertificate(Certificate clientCertificate)$/;"	m	class:TlsServerProtocol
+notifyClientVersion	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsServer.java	/^    public void notifyClientVersion(ProtocolVersion clientVersion)$/;"	m	class:AbstractTlsServer
+notifyClientVersion	.tag_sources/org/bouncycastle/crypto/tls/TlsServer.java	/^    void notifyClientVersion(ProtocolVersion clientVersion) throws IOException;$/;"	m	interface:TlsServer
+notifyClose	.tag_sources/org/eclipse/jetty/websocket/common/WebSocketSession.java	/^    public void notifyClose(int statusCode, String reason)$/;"	m	class:WebSocketSession
+notifyCompleted	.tag_sources/scala/concurrent/stm/ccstm/TxnLevelImpl.scala	/^  private def notifyCompleted() {$/;"	m
+notifyConnect	.tag_sources/io/netty/channel/pool/SimpleChannelPool.java	/^    private void notifyConnect(ChannelFuture future, Promise<Channel> promise) {$/;"	m	class:SimpleChannelPool	file:
+notifyConnect	.tag_sources/org/eclipse/jetty/websocket/client/io/UpgradeConnection.java	/^    private void notifyConnect(ClientUpgradeResponse response)$/;"	m	class:UpgradeConnection	file:
+notifyDebug	.tag_sources/akka/event/Logging.scala	/^  final protected override def notifyDebug(message: String): Unit = ()$/;"	m
+notifyDebug	.tag_sources/akka/event/Logging.scala	/^  protected def notifyDebug(message: String): Unit =$/;"	m
+notifyDebug	.tag_sources/akka/event/Logging.scala	/^  protected def notifyDebug(message: String): Unit$/;"	m
+notifyDebugger_r	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/Context.java	/^    private static void notifyDebugger_r(Context cx, DebuggableScript dscript,$/;"	m	class:Context	file:
+notifyDiscardedEndElement	.tag_sources/org/cyberneko/html/HTMLTagBalancer.java	/^    private void notifyDiscardedEndElement(final QName element, final Augmentations augs) {$/;"	m	class:HTMLTagBalancer	file:
+notifyDiscardedStartElement	.tag_sources/org/cyberneko/html/HTMLTagBalancer.java	/^    private void notifyDiscardedStartElement(final QName elem, final XMLAttributes attrs,$/;"	m	class:HTMLTagBalancer	file:
+notifyError	.tag_sources/akka/event/Logging.scala	/^  final protected override def notifyError(cause: Throwable, message: String): Unit = ()$/;"	m
+notifyError	.tag_sources/akka/event/Logging.scala	/^  final protected override def notifyError(message: String): Unit = ()$/;"	m
+notifyError	.tag_sources/akka/event/Logging.scala	/^  protected def notifyError(cause: Throwable, message: String): Unit =$/;"	m
+notifyError	.tag_sources/akka/event/Logging.scala	/^  protected def notifyError(cause: Throwable, message: String): Unit$/;"	m
+notifyError	.tag_sources/akka/event/Logging.scala	/^  protected def notifyError(message: String): Unit =$/;"	m
+notifyError	.tag_sources/akka/event/Logging.scala	/^  protected def notifyError(message: String): Unit$/;"	m
+notifyError	.tag_sources/org/eclipse/jetty/websocket/common/WebSocketSession.java	/^    public void notifyError(Throwable cause)$/;"	m	class:WebSocketSession
+notifyFailed	.tag_sources/com/google/common/util/concurrent/AbstractService.java	/^  protected final void notifyFailed(Throwable cause) {$/;"	m	class:AbstractService
+notifyFailure	.tag_sources/org/eclipse/jetty/websocket/common/message/MessageOutputStream.java	/^    private void notifyFailure(Throwable failure)$/;"	m	class:MessageOutputStream	file:
+notifyFailure	.tag_sources/org/eclipse/jetty/websocket/common/message/MessageWriter.java	/^    private void notifyFailure(Throwable failure)$/;"	m	class:MessageWriter	file:
+notifyFallback	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsServer.java	/^    public void notifyFallback(boolean isFallback) throws IOException$/;"	m	class:AbstractTlsServer
+notifyFallback	.tag_sources/org/bouncycastle/crypto/tls/TlsServer.java	/^    void notifyFallback(boolean isFallback) throws IOException;$/;"	m	interface:TlsServer
+notifyFlushFutures	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    public ChannelFlushPromiseNotifier notifyFlushFutures() {$/;"	m	class:ChannelFlushPromiseNotifier
+notifyFlushFutures	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    public ChannelFlushPromiseNotifier notifyFlushFutures(Throwable cause) {$/;"	m	class:ChannelFlushPromiseNotifier
+notifyFlushFutures	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    public ChannelFlushPromiseNotifier notifyFlushFutures(Throwable cause1, Throwable cause2) {$/;"	m	class:ChannelFlushPromiseNotifier
+notifyFrame	.tag_sources/org/eclipse/jetty/websocket/common/Parser.java	/^    protected void notifyFrame(final Frame f)$/;"	m	class:Parser
+notifyHandler	.tag_sources/org/asynchttpclient/netty/handler/HttpHandler.java	/^    private void notifyHandler(Channel channel, NettyResponseFuture<?> future, HttpResponse response, AsyncHandler<?> handler, NettyResponseStatus status,$/;"	m	class:HttpHandler	file:
+notifyHandlerException	.tag_sources/io/netty/channel/AbstractChannelHandlerContext.java	/^    private void notifyHandlerException(Throwable cause) {$/;"	m	class:AbstractChannelHandlerContext	file:
+notifyHandlerException	.tag_sources/org/jboss/netty/channel/DefaultChannelPipeline.java	/^    protected void notifyHandlerException(ChannelEvent e, Throwable t) {$/;"	m	class:DefaultChannelPipeline
+notifyHandlerException	.tag_sources/org/jboss/netty/handler/codec/embedder/AbstractCodecEmbedder.java	/^        protected void notifyHandlerException(ChannelEvent e, Throwable t) {$/;"	m	class:AbstractCodecEmbedder.EmbeddedChannelPipeline
+notifyHandshakeComplete	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsPeer.java	/^    public void notifyHandshakeComplete() throws IOException$/;"	m	class:AbstractTlsPeer
+notifyHandshakeComplete	.tag_sources/org/bouncycastle/crypto/tls/TlsPeer.java	/^    void notifyHandshakeComplete() throws IOException;$/;"	m	interface:TlsPeer
+notifyHandshakeFailure	.tag_sources/io/netty/handler/ssl/SslHandler.java	/^    private void notifyHandshakeFailure(Throwable cause) {$/;"	m	class:SslHandler	file:
+notifyHandshakeFailure	.tag_sources/io/netty/handler/ssl/SslUtils.java	/^    static void notifyHandshakeFailure(ChannelHandlerContext ctx, Throwable cause) {$/;"	m	class:SslUtils
+notifyHasPEReferences	.tag_sources/org/apache/xerces/impl/XMLEntityManager.java	/^    final void notifyHasPEReferences() {$/;"	m	class:XMLEntityManager
+notifyHeaders	.tag_sources/com/ning/http/client/providers/netty/NettyAsyncHttpProvider.java	/^        private final boolean notifyHeaders;$/;"	f	class:NettyAsyncHttpProvider.ProgressListener	file:
+notifyHeaders	.tag_sources/org/asynchttpclient/netty/request/WriteListener.java	/^    protected final boolean notifyHeaders;$/;"	f	class:WriteListener
+notifyHealthCheck	.tag_sources/io/netty/channel/pool/SimpleChannelPool.java	/^    private void notifyHealthCheck(Future<Boolean> future, Channel ch, Promise<Channel> promise) {$/;"	m	class:SimpleChannelPool	file:
+notifyHelloComplete	.tag_sources/org/bouncycastle/crypto/tls/DTLSReliableHandshake.java	/^    void notifyHelloComplete()$/;"	m	class:DTLSReliableHandshake
+notifyHelloComplete	.tag_sources/org/bouncycastle/crypto/tls/RecordStream.java	/^    void notifyHelloComplete()$/;"	m	class:RecordStream
+notifyIdentityHint	.tag_sources/org/bouncycastle/crypto/tls/BasicTlsPSKIdentity.java	/^    public void notifyIdentityHint(byte[] psk_identity_hint)$/;"	m	class:BasicTlsPSKIdentity
+notifyIdentityHint	.tag_sources/org/bouncycastle/crypto/tls/TlsPSKIdentity.java	/^    void notifyIdentityHint(byte[] psk_identity_hint);$/;"	m	interface:TlsPSKIdentity
+notifyIfResponseNotConfigured	.tag_sources/com/github/tomakehurst/wiremock/stubbing/InMemoryStubMappings.java	/^	private void notifyIfResponseNotConfigured(Request request, StubMapping matchingMapping) {$/;"	m	class:InMemoryStubMappings	file:
+notifyIncoming	.tag_sources/org/eclipse/jetty/io/NetworkTrafficSelectChannelEndPoint.java	/^    public void notifyIncoming(ByteBuffer buffer, int read)$/;"	m	class:NetworkTrafficSelectChannelEndPoint
+notifyIncorrectness	.tag_sources/com/gargoylesoftware/htmlunit/html/DomNode.java	/^    protected void notifyIncorrectness(final String message) {$/;"	m	class:DomNode
+notifyInfo	.tag_sources/akka/event/Logging.scala	/^  final protected override def notifyInfo(message: String): Unit = ()$/;"	m
+notifyInfo	.tag_sources/akka/event/Logging.scala	/^  protected def notifyInfo(message: String): Unit =$/;"	m
+notifyInfo	.tag_sources/akka/event/Logging.scala	/^  protected def notifyInfo(message: String): Unit$/;"	m
+notifyIteratorsRemovingNode	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyIteratorsRemovingNode(NodeImpl oldChild) {$/;"	m	class:DocumentImpl	file:
+notifyListener	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    protected static void notifyListener($/;"	m	class:DefaultPromise
+notifyListener	.tag_sources/org/jboss/netty/channel/DefaultChannelFuture.java	/^    private void notifyListener(ChannelFutureListener l) {$/;"	m	class:DefaultChannelFuture	file:
+notifyListener	.tag_sources/org/jboss/netty/channel/group/DefaultChannelGroupFuture.java	/^    private void notifyListener(ChannelGroupFutureListener l) {$/;"	m	class:DefaultChannelGroupFuture	file:
+notifyListener	.tag_sources/org/junit/runner/notification/RunNotifier.java	/^        abstract protected void notifyListener(RunListener each) throws Exception;$/;"	m	class:RunNotifier.SafeNotifier
+notifyListener0	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private static void notifyListener0(Future future, GenericFutureListener l) {$/;"	m	class:DefaultPromise	file:
+notifyListenerOfAddedMetric	.tag_sources/com/codahale/metrics/MetricRegistry.java	/^    private void notifyListenerOfAddedMetric(MetricRegistryListener listener, Metric metric, String name) {$/;"	m	class:MetricRegistry	file:
+notifyListenerOfRemovedMetric	.tag_sources/com/codahale/metrics/MetricRegistry.java	/^    private void notifyListenerOfRemovedMetric(String name, Metric metric, MetricRegistryListener listener) {$/;"	m	class:MetricRegistry	file:
+notifyListenerWithStackOverFlowProtection	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private static void notifyListenerWithStackOverFlowProtection(final EventExecutor executor,$/;"	m	class:DefaultPromise	file:
+notifyListeners	.tag_sources/com/google/inject/internal/MembersInjectorImpl.java	/^  void notifyListeners(T instance, Errors errors) throws ErrorsException {$/;"	m	class:MembersInjectorImpl
+notifyListeners	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private void notifyListeners() {$/;"	m	class:DefaultPromise	file:
+notifyListeners	.tag_sources/org/jboss/netty/channel/DefaultChannelFuture.java	/^    private void notifyListeners() {$/;"	m	class:DefaultChannelFuture	file:
+notifyListeners	.tag_sources/org/jboss/netty/channel/group/DefaultChannelGroupFuture.java	/^    private void notifyListeners() {$/;"	m	class:DefaultChannelGroupFuture	file:
+notifyListeners0	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private void notifyListeners0(DefaultFutureListeners listeners) {$/;"	m	class:DefaultPromise	file:
+notifyListenersNow	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private void notifyListenersNow() {$/;"	m	class:DefaultPromise	file:
+notifyLog	.tag_sources/akka/event/Logging.scala	/^  final def notifyLog(level: Logging.LogLevel, message: String): Unit = level match {$/;"	m
+notifyMask	.tag_sources/com/sun/jna/platform/win32/W32FileMonitor.java	/^        public final int notifyMask;$/;"	f	class:W32FileMonitor.FileInfo
+notifyMethodCall	.tag_sources/org/mockito/internal/handler/InvocationNotifierHandler.java	/^	private void notifyMethodCall(Invocation invocation, Object returnValue) {$/;"	m	class:InvocationNotifierHandler	file:
+notifyMethodCallException	.tag_sources/org/mockito/internal/handler/InvocationNotifierHandler.java	/^    private void notifyMethodCallException(Invocation invocation, Throwable exception) {$/;"	m	class:InvocationNotifierHandler	file:
+notifyNewSessionTicket	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsClient.java	/^    public void notifyNewSessionTicket(NewSessionTicket newSessionTicket)$/;"	m	class:AbstractTlsClient
+notifyNewSessionTicket	.tag_sources/org/bouncycastle/crypto/tls/TlsClient.java	/^    void notifyNewSessionTicket(NewSessionTicket newSessionTicket)$/;"	m	interface:TlsClient
+notifyNewValue	.tag_sources/com/google/common/cache/LocalCache.java	/^    public void notifyNewValue(@Nullable V newValue) {$/;"	m	class:LocalCache.LoadingValueReference
+notifyNewValue	.tag_sources/com/google/common/cache/LocalCache.java	/^    public void notifyNewValue(V newValue) {}$/;"	m	class:LocalCache.SoftValueReference
+notifyNewValue	.tag_sources/com/google/common/cache/LocalCache.java	/^    public void notifyNewValue(V newValue) {}$/;"	m	class:LocalCache.StrongValueReference
+notifyNewValue	.tag_sources/com/google/common/cache/LocalCache.java	/^    public void notifyNewValue(V newValue) {}$/;"	m	class:LocalCache.WeakValueReference
+notifyNewValue	.tag_sources/com/google/common/cache/LocalCache.java	/^    void notifyNewValue(@Nullable V newValue);$/;"	m	interface:LocalCache.ValueReference
+notifyNodeAdded	.tag_sources/com/gargoylesoftware/htmlunit/html/HtmlPage.java	/^    void notifyNodeAdded(final DomNode node) {$/;"	m	class:HtmlPage
+notifyNodeRemoved	.tag_sources/com/gargoylesoftware/htmlunit/html/HtmlPage.java	/^    void notifyNodeRemoved(final DomNode node) {$/;"	m	class:HtmlPage
+notifyOfferedCipherSuites	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsServer.java	/^    public void notifyOfferedCipherSuites(int[] offeredCipherSuites)$/;"	m	class:AbstractTlsServer
+notifyOfferedCipherSuites	.tag_sources/org/bouncycastle/crypto/tls/TlsServer.java	/^    void notifyOfferedCipherSuites(int[] offeredCipherSuites)$/;"	m	interface:TlsServer
+notifyOfferedCompressionMethods	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsServer.java	/^    public void notifyOfferedCompressionMethods(short[] offeredCompressionMethods)$/;"	m	class:AbstractTlsServer
+notifyOfferedCompressionMethods	.tag_sources/org/bouncycastle/crypto/tls/TlsServer.java	/^    void notifyOfferedCompressionMethods(short[] offeredCompressionMethods)$/;"	m	interface:TlsServer
+notifyOnShutdown	.tag_sources/org/jboss/netty/handler/execution/MemoryAwareThreadPoolExecutor.java	/^    private volatile boolean notifyOnShutdown;$/;"	f	class:MemoryAwareThreadPoolExecutor	file:
+notifyOutboundHandlerException	.tag_sources/io/netty/channel/AbstractChannelHandlerContext.java	/^    private static void notifyOutboundHandlerException(Throwable cause, ChannelPromise promise) {$/;"	m	class:AbstractChannelHandlerContext	file:
+notifyOutgoing	.tag_sources/org/eclipse/jetty/io/NetworkTrafficSelectChannelEndPoint.java	/^    public void notifyOutgoing(ByteBuffer view)$/;"	m	class:NetworkTrafficSelectChannelEndPoint
+notifyPRFDetermined	.tag_sources/org/bouncycastle/crypto/tls/CombinedHash.java	/^    public TlsHandshakeHash notifyPRFDetermined()$/;"	m	class:CombinedHash
+notifyPRFDetermined	.tag_sources/org/bouncycastle/crypto/tls/DeferredHash.java	/^    public TlsHandshakeHash notifyPRFDetermined()$/;"	m	class:DeferredHash
+notifyPRFDetermined	.tag_sources/org/bouncycastle/crypto/tls/TlsHandshakeHash.java	/^    TlsHandshakeHash notifyPRFDetermined();$/;"	m	interface:TlsHandshakeHash
+notifyProgressListener	.tag_sources/org/jboss/netty/channel/DefaultChannelFuture.java	/^    private void notifyProgressListener($/;"	m	class:DefaultChannelFuture	file:
+notifyProgressiveListener0	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private static void notifyProgressiveListener0($/;"	m	class:DefaultPromise	file:
+notifyProgressiveListeners	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    void notifyProgressiveListeners(final long progress, final long total) {$/;"	m	class:DefaultPromise
+notifyProgressiveListeners0	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private static void notifyProgressiveListeners0($/;"	m	class:DefaultPromise	file:
+notifyPromises	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    public ChannelFlushPromiseNotifier notifyPromises() {$/;"	m	class:ChannelFlushPromiseNotifier
+notifyPromises	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    public ChannelFlushPromiseNotifier notifyPromises(Throwable cause) {$/;"	m	class:ChannelFlushPromiseNotifier
+notifyPromises	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    public ChannelFlushPromiseNotifier notifyPromises(Throwable cause1, Throwable cause2) {$/;"	m	class:ChannelFlushPromiseNotifier
+notifyPromises0	.tag_sources/io/netty/channel/ChannelFlushPromiseNotifier.java	/^    private void notifyPromises0(Throwable cause) {$/;"	m	class:ChannelFlushPromiseNotifier	file:
+notifyRangesDeletedText	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyRangesDeletedText(CharacterDataImpl node, int offset, int count) {$/;"	m	class:DocumentImpl	file:
+notifyRangesInsertedNode	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyRangesInsertedNode(NodeImpl newInternal) {$/;"	m	class:DocumentImpl	file:
+notifyRangesInsertedText	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyRangesInsertedText(CharacterDataImpl node, int offset, int count) {$/;"	m	class:DocumentImpl	file:
+notifyRangesRemovingNode	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyRangesRemovingNode(NodeImpl oldChild) {$/;"	m	class:DocumentImpl	file:
+notifyRangesReplacedText	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyRangesReplacedText(CharacterDataImpl node) {$/;"	m	class:DocumentImpl	file:
+notifyRangesSplitData	.tag_sources/org/apache/xerces/dom/DocumentImpl.java	/^    private void notifyRangesSplitData(Node node, Node newNode, int offset) {$/;"	m	class:DocumentImpl	file:
+notifyReadyToFeed	.tag_sources/com/ning/http/client/providers/grizzly/FeedableBodyGenerator.java	/^        public abstract void notifyReadyToFeed(final ReadyToFeedListener listener);$/;"	m	class:FeedableBodyGenerator.NonBlockingFeeder
+notifyRemoval	.tag_sources/com/google/common/collect/MapMaker.java	/^    void notifyRemoval(K key, V value) {$/;"	m	class:MapMaker.NullConcurrentMap
+notifySchemeSwitch	.tag_sources/com/ning/http/client/providers/grizzly/GrizzlyAsyncHttpProvider.java	/^            private void notifySchemeSwitch(final FilterChainContext ctx,$/;"	m	class:GrizzlyAsyncHttpProvider.AsyncHttpClientEventFilter.RedirectHandler	file:
+notifySecureRenegotiation	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsPeer.java	/^    public void notifySecureRenegotiation(boolean secureRenegotiation) throws IOException$/;"	m	class:AbstractTlsPeer
+notifySecureRenegotiation	.tag_sources/org/bouncycastle/crypto/tls/TlsPeer.java	/^    void notifySecureRenegotiation(boolean secureNegotiation) throws IOException;$/;"	m	interface:TlsPeer
+notifySelectedCipherSuite	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsClient.java	/^    public void notifySelectedCipherSuite(int selectedCipherSuite)$/;"	m	class:AbstractTlsClient
+notifySelectedCipherSuite	.tag_sources/org/bouncycastle/crypto/tls/TlsClient.java	/^    void notifySelectedCipherSuite(int selectedCipherSuite);$/;"	m	interface:TlsClient
+notifySelectedCompressionMethod	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsClient.java	/^    public void notifySelectedCompressionMethod(short selectedCompressionMethod)$/;"	m	class:AbstractTlsClient
+notifySelectedCompressionMethod	.tag_sources/org/bouncycastle/crypto/tls/TlsClient.java	/^    void notifySelectedCompressionMethod(short selectedCompressionMethod);$/;"	m	interface:TlsClient
+notifyServerCertificate	.tag_sources/org/bouncycastle/crypto/tls/TlsAuthentication.java	/^    void notifyServerCertificate(Certificate serverCertificate)$/;"	m	interface:TlsAuthentication
+notifyServerVersion	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsClient.java	/^    public void notifyServerVersion(ProtocolVersion serverVersion)$/;"	m	class:AbstractTlsClient
+notifyServerVersion	.tag_sources/org/bouncycastle/crypto/tls/TlsClient.java	/^    void notifyServerVersion(ProtocolVersion selectedVersion)$/;"	m	interface:TlsClient
+notifySessionID	.tag_sources/org/bouncycastle/crypto/tls/AbstractTlsClient.java	/^    public void notifySessionID(byte[] sessionID)$/;"	m	class:AbstractTlsClient
+notifySessionID	.tag_sources/org/bouncycastle/crypto/tls/TlsClient.java	/^    void notifySessionID(byte[] sessionID);$/;"	m	interface:TlsClient
+notifyStarted	.tag_sources/com/google/common/util/concurrent/AbstractService.java	/^  protected final void notifyStarted() {$/;"	m	class:AbstractService
+notifyStateListeners	.tag_sources/org/eclipse/jetty/websocket/common/io/IOState.java	/^    private void notifyStateListeners(ConnectionState state)$/;"	m	class:IOState	file:
+notifyStopped	.tag_sources/com/google/common/util/concurrent/AbstractService.java	/^  protected final void notifyStopped() {$/;"	m	class:AbstractService
+notifySuccess	.tag_sources/org/eclipse/jetty/websocket/common/message/MessageOutputStream.java	/^    private void notifySuccess()$/;"	m	class:MessageOutputStream	file:
+notifySuccess	.tag_sources/org/eclipse/jetty/websocket/common/message/MessageWriter.java	/^    private void notifySuccess()$/;"	m	class:MessageWriter	file:
+notifyTextListeners	.tag_sources/org/asynchttpclient/netty/ws/NettyWebSocket.java	/^    private void notifyTextListeners(String message) {$/;"	m	class:NettyWebSocket	file:
+notifyTransitionListeners	.tag_sources/akka/pattern/CircuitBreaker.scala	/^    protected def notifyTransitionListeners() {$/;"	m
+notifyUnbound	.tag_sources/io/netty/handler/ssl/ReferenceCountedOpenSslEngine.java	/^        private void notifyUnbound(Object value, String name) {$/;"	m	class:ReferenceCountedOpenSslEngine.OpenSslSession	file:
+notifyUndetparamsAdded	.tag_sources/scala/tools/nsc/typechecker/Macros.scala	/^  def notifyUndetparamsAdded(newUndets: List[Symbol]): Unit = {$/;"	m
+notifyUndetparamsInferred	.tag_sources/scala/tools/nsc/typechecker/Macros.scala	/^  def notifyUndetparamsInferred(undetNoMore: List[Symbol], inferreds: List[Type]): Unit = {$/;"	m
+notifyWaitingThread	.tag_sources/org/apache/http/impl/conn/tsccm/ConnPoolByRoute.java	/^    protected void notifyWaitingThread(final RouteSpecificPool rospl) {$/;"	m	class:ConnPoolByRoute
+notifyWarning	.tag_sources/akka/event/Logging.scala	/^  final protected override def notifyWarning(message: String): Unit = ()$/;"	m
+notifyWarning	.tag_sources/akka/event/Logging.scala	/^  protected def notifyWarning(message: String): Unit =$/;"	m
+notifyWarning	.tag_sources/akka/event/Logging.scala	/^  protected def notifyWarning(message: String): Unit$/;"	m
+notifyWatchees	.tag_sources/io/netty/util/ThreadDeathWatcher.java	/^        private void notifyWatchees() {$/;"	m	class:ThreadDeathWatcher.Watcher	file:
+notifyWebSocketException	.tag_sources/org/eclipse/jetty/websocket/common/Parser.java	/^    protected void notifyWebSocketException(WebSocketException e)$/;"	m	class:Parser
+notify_	.tag_sources/scala/reflect/internal/StdNames.scala	/^    val notify_ : NameType             = "notify"$/;"	V
+notifying	.tag_sources/org/jboss/netty/channel/socket/nio/AbstractNioChannel.java	/^        private final ThreadLocalBoolean notifying = new ThreadLocalBoolean();$/;"	f	class:AbstractNioChannel.WriteRequestQueue	file:
+notifyingListeners	.tag_sources/io/netty/util/concurrent/DefaultPromise.java	/^    private boolean notifyingListeners;$/;"	f	class:DefaultPromise	file:
+notmatch	.tag_sources/javassist/compiler/MemberResolver.java	/^        public int notmatch;$/;"	f	class:MemberResolver.Method
+nouescape	.tag_sources/scala/tools/nsc/settings/ScalaSettings.scala	/^  val nouescape          = BooleanSetting      ("-Xno-uescape", "Disable handling of \\\\u unicode escapes.")$/;"	V
+noun	.tag_sources/scala/reflect/macros/compiler/Errors.scala	/^      val noun = if (flavor == "value") "parameter" else "type parameter"$/;"	V
+nounName	.tag_sources/org/scalatest/matchers/AMatcher.scala	/^      val nounName = name$/;"	V
+nounName	.tag_sources/org/scalatest/matchers/AMatcher.scala	/^  val nounName: String$/;"	V
+nounName	.tag_sources/org/scalatest/matchers/AnMatcher.scala	/^      val nounName = name$/;"	V
+nounName	.tag_sources/org/scalatest/matchers/AnMatcher.scala	/^  val nounName: String$/;"	V
+nounceCount	.tag_sources/org/apache/http/impl/auth/DigestScheme.java	/^    private long nounceCount;$/;"	f	class:DigestScheme	file:
+novell	.tag_sources/org/bouncycastle/asn1/misc/MiscObjectIdentifiers.java	/^    static final ASN1ObjectIdentifier    novell                  = new ASN1ObjectIdentifier("2.16.840.1.113719");$/;"	f	interface:MiscObjectIdentifiers
+novellSecurityAttribs	.tag_sources/org/bouncycastle/asn1/misc/MiscObjectIdentifiers.java	/^    static final ASN1ObjectIdentifier    novellSecurityAttribs   = novell.branch("1.9.4.1");$/;"	f	interface:MiscObjectIdentifiers
+now	.tag_sources/akka/actor/FaultHandling.scala	/^    val now = System.nanoTime$/;"	V
+now	.tag_sources/akka/actor/dsl/Inbox.scala	/^        val now = Deadline.now$/;"	V
+now	.tag_sources/akka/io/SimpleDnsCache.scala	/^      val now = clock()$/;"	V
+now	.tag_sources/akka/io/SimpleDnsCache.scala	/^    val now = System.nanoTime()$/;"	V
+now	.tag_sources/akka/routing/OptimalSizeExploringResizer.scala	/^    val now = LocalDateTime.now$/;"	V
+now	.tag_sources/akka/util/TokenBucket.scala	/^    val now = currentTime$/;"	V
+now	.tag_sources/bufferhandlers.scala	/^      val now = buffer.index$/;"	V
+now	.tag_sources/ch/qos/logback/core/rolling/helper/TimeBasedArchiveRemover.java	/^        Date now;$/;"	f	class:TimeBasedArchiveRemover.ArhiveRemoverRunnable
+now	.tag_sources/com/gargoylesoftware/htmlunit/javascript/host/performance/Performance.java	/^    public double now() {$/;"	m	class:Performance
+now	.tag_sources/com/github/nscala_time/time/StaticDateTime.scala	/^  def now()        = new DateTime$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticDateTime.scala	/^  def now(chronology: Chronology) = DateTime.now(chronology)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticDateTime.scala	/^  def now(zone: DateTimeZone) = DateTime.now(zone)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalDate.scala	/^  def now()        = new LocalDate$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalDate.scala	/^  def now(chronology: Chronology) = LocalDate.now(chronology)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalDate.scala	/^  def now(zone: DateTimeZone) = LocalDate.now(zone)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalDateTime.scala	/^  def now()        = new LocalDateTime$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalDateTime.scala	/^  def now(chronology: Chronology) = LocalDateTime.now(chronology)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalDateTime.scala	/^  def now(zone: DateTimeZone) = LocalDateTime.now(zone)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalTime.scala	/^  def now()        = new LocalTime$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalTime.scala	/^  def now(chronology: Chronology) = LocalTime.now(chronology)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticLocalTime.scala	/^  def now(zone: DateTimeZone) = LocalTime.now(zone)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticMonthDay.scala	/^  def now() = MonthDay.now()$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticMonthDay.scala	/^  def now(chronology: Chronology) = MonthDay.now(chronology)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticMonthDay.scala	/^  def now(zone: DateTimeZone) = MonthDay.now(zone)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticYearMonth.scala	/^  def now() = YearMonth.now()$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticYearMonth.scala	/^  def now(chronology: Chronology) = YearMonth.now(chronology)$/;"	m
+now	.tag_sources/com/github/nscala_time/time/StaticYearMonth.scala	/^  def now(zone: DateTimeZone) = YearMonth.now(zone)$/;"	m
+now	.tag_sources/com/thoughtworks/selenium/condition/DefaultConditionRunner.java	/^    private long now() {$/;"	m	class:DefaultConditionRunner.ContextImpl	file:
+now	.tag_sources/core/actors/MongoDBSystem.scala	/^      val now = System.currentTimeMillis()$/;"	V
+now	.tag_sources/core/protocol/protocol.scala	/^    val now = System.currentTimeMillis()$/;"	V
+now	.tag_sources/lowlevel.scala	/^          val now = buf.index$/;"	V
+now	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/NativeDate.java	/^    private static double now() {$/;"	m	class:NativeDate	file:
+now	.tag_sources/org/eclipse/jetty/util/DateCache.java	/^    public String now()$/;"	m	class:DateCache
+now	.tag_sources/org/joda/time/DateMidnight.java	/^    public static DateMidnight now() {$/;"	m	class:DateMidnight
+now	.tag_sources/org/joda/time/DateMidnight.java	/^    public static DateMidnight now(Chronology chronology) {$/;"	m	class:DateMidnight
+now	.tag_sources/org/joda/time/DateMidnight.java	/^    public static DateMidnight now(DateTimeZone zone) {$/;"	m	class:DateMidnight
+now	.tag_sources/org/joda/time/DateTime.java	/^    public static DateTime now() {$/;"	m	class:DateTime
+now	.tag_sources/org/joda/time/DateTime.java	/^    public static DateTime now(Chronology chronology) {$/;"	m	class:DateTime
+now	.tag_sources/org/joda/time/DateTime.java	/^    public static DateTime now(DateTimeZone zone) {$/;"	m	class:DateTime
+now	.tag_sources/org/joda/time/Instant.java	/^    public static Instant now() {$/;"	m	class:Instant
+now	.tag_sources/org/joda/time/LocalDate.java	/^    public static LocalDate now() {$/;"	m	class:LocalDate
+now	.tag_sources/org/joda/time/LocalDate.java	/^    public static LocalDate now(Chronology chronology) {$/;"	m	class:LocalDate
+now	.tag_sources/org/joda/time/LocalDate.java	/^    public static LocalDate now(DateTimeZone zone) {$/;"	m	class:LocalDate
+now	.tag_sources/org/joda/time/LocalDateTime.java	/^    public static LocalDateTime now() {$/;"	m	class:LocalDateTime
+now	.tag_sources/org/joda/time/LocalDateTime.java	/^    public static LocalDateTime now(Chronology chronology) {$/;"	m	class:LocalDateTime
+now	.tag_sources/org/joda/time/LocalDateTime.java	/^    public static LocalDateTime now(DateTimeZone zone) {$/;"	m	class:LocalDateTime
+now	.tag_sources/org/joda/time/LocalTime.java	/^    public static LocalTime now() {$/;"	m	class:LocalTime
+now	.tag_sources/org/joda/time/LocalTime.java	/^    public static LocalTime now(Chronology chronology) {$/;"	m	class:LocalTime
+now	.tag_sources/org/joda/time/LocalTime.java	/^    public static LocalTime now(DateTimeZone zone) {$/;"	m	class:LocalTime
+now	.tag_sources/org/joda/time/MonthDay.java	/^    public static MonthDay now() {$/;"	m	class:MonthDay
+now	.tag_sources/org/joda/time/MonthDay.java	/^    public static MonthDay now(Chronology chronology) {$/;"	m	class:MonthDay
+now	.tag_sources/org/joda/time/MonthDay.java	/^    public static MonthDay now(DateTimeZone zone) {$/;"	m	class:MonthDay
+now	.tag_sources/org/joda/time/MutableDateTime.java	/^    public static MutableDateTime now() {$/;"	m	class:MutableDateTime
+now	.tag_sources/org/joda/time/MutableDateTime.java	/^    public static MutableDateTime now(Chronology chronology) {$/;"	m	class:MutableDateTime
+now	.tag_sources/org/joda/time/MutableDateTime.java	/^    public static MutableDateTime now(DateTimeZone zone) {$/;"	m	class:MutableDateTime
+now	.tag_sources/org/joda/time/YearMonth.java	/^    public static YearMonth now() {$/;"	m	class:YearMonth
+now	.tag_sources/org/joda/time/YearMonth.java	/^    public static YearMonth now(Chronology chronology) {$/;"	m	class:YearMonth
+now	.tag_sources/org/joda/time/YearMonth.java	/^    public static YearMonth now(DateTimeZone zone) {$/;"	m	class:YearMonth
+now	.tag_sources/org/mortbay/util/DateCache.java	/^    public String now()$/;"	m	class:DateCache
+now	.tag_sources/org/openqa/selenium/support/ui/Clock.java	/^  long now();$/;"	m	interface:Clock
+now	.tag_sources/org/openqa/selenium/support/ui/SystemClock.java	/^  public long now() {$/;"	m	class:SystemClock
+now	.tag_sources/org/scalatest/time/Now.scala	/^  def now(): Long = (new java.util.Date).getTime$/;"	m
+now	.tag_sources/scala/concurrent/duration/Deadline.scala	/^  def now: Deadline = Deadline(Duration(System.nanoTime, NANOSECONDS))$/;"	m
+now	.tag_sources/scala/concurrent/stm/ccstm/CommitBarrierImpl.scala	/^            val now = System.nanoTime()$/;"	V
+now	.tag_sources/uk/gov/hmrc/time/CurrentTaxYear.scala	/^  def now: () => DateTime$/;"	m
+now	.tag_sources/uk/gov/hmrc/time/DateTimeUtils.scala	/^  def now = DateTime.now.withZone(DateTimeZone.UTC)$/;"	m
+now	.tag_sources/uk/gov/hmrc/time/TaxYear.scala	/^  override def now = () => DateTime.now$/;"	m
+now	.tag_sources/uk/gov/hmrc/workitem/WorkItemRepository.scala	/^  def now: DateTime$/;"	m
+nowAllSet	.tag_sources/net/sourceforge/htmlunit/corejs/javascript/Parser.java	/^    private static final boolean nowAllSet(int before, int after, int mask) {$/;"	m	class:Parser	file:
+nowDelayed	.tag_sources/scala/tools/nsc/typechecker/Macros.scala	/^    val nowDelayed  = !typer.context.macrosEnabled || undetparams.nonEmpty$/;"	V
+nowNanos	.tag_sources/akka/stream/extra/Timed.scala	/^        val nowNanos = System.nanoTime()$/;"	V
+nowarn	.tag_sources/scala/tools/ant/Scalac.scala	/^  protected var nowarn: Option[Boolean] = None$/;"	v
+nowarn	.tag_sources/scala/tools/nsc/settings/StandardScalaSettings.scala	/^  val nowarn =         BooleanSetting ("-nowarn", "Generate no warnings.")$/;"	V
+nowarnings	.tag_sources/scala/tools/nsc/doc/ScaladocAnalyzer.scala	/^        val nowarnings = settings.nowarn.value$/;"	V
+nowarnings	.tag_sources/scala/tools/nsc/settings/ScalaSettings.scala	/^  def nowarnings = nowarn$/;"	m
+npairs	.tag_sources/scala/tools/nsc/symtab/classfile/ICodeReader.scala	/^          val npairs = u4; size += 4$/;"	V
+nparens	.tag_sources/scala/tools/nsc/ast/parser/Parsers.scala	/^      var nparens = 0$/;"	v
+nparens	.tag_sources/scala/tools/nsc/javac/JavaParsers.scala	/^      var nparens = 0$/;"	v
+nparents	.tag_sources/scala/reflect/internal/BaseTypeSeqs.scala	/^      val nparents = parents.length$/;"	V
+npos	.tag_sources/scala/collection/concurrent/TrieMap.scala	/^    val npos = stackpos(depth) + 1$/;"	V
+npos	.tag_sources/scala/tools/nsc/ast/parser/Parsers.scala	/^            val npos = r2p(nstart, nstart, in.lastOffset)$/;"	V
+npsVersion	.tag_sources/uk/gov/hmrc/http/HeaderNames.scala	/^  val npsVersion = "nps-version"$/;"	V
+nr	.tag_sources/scala/tools/nsc/backend/jvm/BCodeSkelBuilder.scala	/^      val nr = tree.pos.finalPosition.line$/;"	V
+nrOfInstances	.tag_sources/akka/routing/Balancing.scala	/^  def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/Balancing.scala	/^  override val nrOfInstances:      Int,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/Broadcast.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/Broadcast.scala	/^  override val nrOfInstances: Int, override val resizer: Option[Resizer] = None,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/ConsistentHashing.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/ConsistentHashing.scala	/^  override val nrOfInstances:      Int,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/Random.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/Random.scala	/^  override val nrOfInstances: Int, override val resizer: Option[Resizer] = None,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/RoundRobin.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/RoundRobin.scala	/^  override val nrOfInstances: Int, override val resizer: Option[Resizer] = None,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/RouterConfig.scala	/^  def nrOfInstances(sys: ActorSystem): Int$/;"	m
+nrOfInstances	.tag_sources/akka/routing/RouterConfig.scala	/^  def nrOfInstances: Int = -1$/;"	m
+nrOfInstances	.tag_sources/akka/routing/RouterConfig.scala	/^  override def nrOfInstances(sys: ActorSystem): Int = 0$/;"	m
+nrOfInstances	.tag_sources/akka/routing/ScatterGatherFirstCompleted.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/ScatterGatherFirstCompleted.scala	/^  override val nrOfInstances: Int, override val resizer: Option[Resizer] = None,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/SmallestMailbox.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/SmallestMailbox.scala	/^  override val nrOfInstances: Int, override val resizer: Option[Resizer] = None,$/;"	V
+nrOfInstances	.tag_sources/akka/routing/TailChopping.scala	/^  override def nrOfInstances(sys: ActorSystem) = this.nrOfInstances$/;"	m
+nrOfInstances	.tag_sources/akka/routing/TailChopping.scala	/^  override val nrOfInstances: Int, override val resizer: Option[Resizer] = None,$/;"	V
+nrOfRoutees	.tag_sources/akka/routing/RoutedActorCell.scala	/^        val nrOfRoutees = if (deprecatedNrOfInstances < 0) pool.nrOfInstances(system) else deprecatedNrOfInstances$/;"	V
+nre	.tag_sources/scala/collection/immutable/NumericRange.scala	/^        val nre = num fromInt numRangeElements$/;"	V
+nread	.tag_sources/scala/tools/nsc/interactive/Lexer.scala	/^  private var nread: Int = 0$/;"	v
+nreaders	.tag_sources/scala/concurrent/Channel.scala	/^  private var nreaders = 0$/;"	v
+nrows	.tag_sources/scala/tools/nsc/interpreter/Tabulators.scala	/^      val nrows = items.size \/% ncols$/;"	V
+nrows	.tag_sources/scala/tools/nsc/interpreter/Tabulators.scala	/^    val nrows       = items.size \/% maxcols$/;"	V
+ns	.tag_sources/core/actors/MongoDBSystem.scala	/^      val ns = close()$/;"	V
+ns	.tag_sources/core/actors/MongoDBSystem.scala	/^      val ns = nodeSetLock.synchronized { this._nodeSet }$/;"	V
+ns	.tag_sources/core/actors/MongoDBSystem.scala	/^    val ns = NodeSet(None, None, seeds.map(seed => Node(seed, NodeStatus.Unknown, Vector.empty, Set.empty, None, ProtocolMetadata.Default).createNeededChannels(channelFactory, self, 1)).toVector, initialAuthenticates.toSet)$/;"	V
+ns	.tag_sources/core/actors/MongoDBSystem.scala	/^    val ns = _nodeSet$/;"	V
+ns	.tag_sources/core/actors/MongoDBSystem.scala	/^    val ns = nodeSet.updateByChannelId(channelId) { con =>$/;"	V
+ns	.tag_sources/core/actors/MongoDBSystem.scala	/^    val ns = updateNodeSet("Close")(_.updateAll { node =>$/;"	V
+ns	.tag_sources/core/nodeset.scala	/^    val ns = nodes.map(_.info)$/;"	V
+ns	.tag_sources/scala/collection/SeqLike.scala	/^      val ns = new Array[Int](cs.length)$/;"	V
+ns	.tag_sources/scala/tools/nsc/ast/parser/SymbolicXMLBuilder.scala	/^        val ns = splitPrefix(z) match {$/;"	V
+nsEquals	.tag_sources/org/apache/xerces/impl/xs/opti/ElementImpl.java	/^    private static boolean nsEquals(String nsURI_1, String nsURI_2) {$/;"	m	class:ElementImpl	file:
+nsIndexWriter	.tag_sources/api/commands/bson/instanceadministration.scala	/^    implicit val nsIndexWriter = IndexesManager.NSIndexWriter$/;"	V
+nsMap	.tag_sources/org/custommonkey/xmlunit/jaxp13/XMLUnitNamespaceContext2Jaxp13.java	/^    private final Map\/*<String, String>*\/ nsMap;$/;"	f	class:XMLUnitNamespaceContext2Jaxp13	file:
+nsName	.tag_sources/org/apache/xerces/dom/DeepNodeListImpl.java	/^    protected String nsName;$/;"	f	class:DeepNodeListImpl
+nsPart	.tag_sources/uk/gov/hmrc/http/logging/ConnectionTracing.scala	/^    val nsPart = ns % 1000$/;"	V
+nsSupport	.tag_sources/org/xml/sax/helpers/ParserAdapter.java	/^    private NamespaceSupport nsSupport;$/;"	f	class:ParserAdapter	file:
+nsc	.tag_sources/scala/tools/ant/sabbus/ForeignCompiler.scala	/^  private lazy val nsc: Global = {$/;"	V
+nsc	.tag_sources/scala/tools/nsc/Global.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/GlobalSymbolLoaders.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/Main.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/Reporting.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/doc/DocParser.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/doc/html/HtmlPage.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/doc/html/page/DeprecatedIndex.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/doc/html/page/ReferenceIndex.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/doc/html/page/Template.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/doc/html/page/diagram/DotDiagramGenerator.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/interactive/Main.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/interpreter/LoopCommands.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/settings/FscSettings.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/settings/MutableSettings.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/settings/ScalaSettings.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/settings/Warnings.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/transform/patmat/PatternExpander.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/transform/patmat/ScalacPatternExpanders.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/typechecker/PatternTypers.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/util/ShowPickled.scala	/^package nsc$/;"	p
+nsc	.tag_sources/scala/tools/nsc/util/package.scala	/^package nsc$/;"	p
+nshifted	.tag_sources/scala/reflect/internal/SymbolPairs.scala	/^      val nshifted = n >> 5$/;"	V
+nsize	.tag_sources/scala/collection/mutable/FlatHashTable.scala	/^    val nsize = calcSizeMapSize(tableLength)$/;"	V
+nsize	.tag_sources/scala/collection/mutable/HashTable.scala	/^    val nsize = calcSizeMapSize(tableLength)$/;"	V
+nstart	.tag_sources/scala/tools/nsc/ast/parser/Parsers.scala	/^            val nstart = in.skipToken()$/;"	V
+nstates	.tag_sources/scala/xml/dtd/impl/DetWordAutom.scala	/^  val nstates: Int$/;"	V
+nstates	.tag_sources/scala/xml/dtd/impl/NondetWordAutom.scala	/^  val nstates: Int$/;"	V
+nstates	.tag_sources/scala/xml/dtd/impl/SubsetConstruction.scala	/^      val nstates = nstatesR$/;"	V
+nstates	.tag_sources/scala/xml/dtd/impl/WordBerrySethi.scala	/^          val nstates = pos$/;"	V
+nstatesR	.tag_sources/scala/xml/dtd/impl/SubsetConstruction.scala	/^    val nstatesR = states.size$/;"	V
+nsteals	.tag_sources/io/netty/util/internal/chmv8/ForkJoinPool.java	/^        int nsteals;               \/\/ number of steals$/;"	f	class:ForkJoinPool.WorkQueue
+nsup	.tag_sources/org/apache/xml/utils/NamespaceSupport2.java	/^    private NamespaceSupport2 nsup;$/;"	f	class:PrefixForUriEnumerator	file:
+ntResp	.tag_sources/com/ning/http/client/ntlm/NTLMEngine.java	/^        protected byte[] ntResp;$/;"	f	class:NTLMEngine.Type3Message
+ntResp	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntResp;$/;"	f	class:NTLMEngineImpl.Type3Message
+ntResp	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntResp;$/;"	f	class:NtlmEngine.Type3Message
+nth	.tag_sources/scala/collection/immutable/RedBlackTree.scala	/^  def nth[A, B](tree: Tree[A, B], n: Int): Tree[A, B] = {$/;"	m
+nthParam	.tag_sources/javassist/CtField.java	/^        int nthParam;$/;"	f	class:CtField.ParamInitializer
+nthParamPos	.tag_sources/scala/tools/nsc/typechecker/Typers.scala	/^      def nthParamPos(n1: Int, n2: Int) =$/;"	m
+nthParamToLocal	.tag_sources/javassist/CtField.java	/^        static int nthParamToLocal(int nth, CtClass[] params,$/;"	m	class:CtField.ParamInitializer
+ntil	.tag_sources/scala/collection/parallel/mutable/ParArray.scala	/^      val ntil = i + n$/;"	V
+ntlm2SessionResponse	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlm2SessionResponse = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlm2SessionResponse	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^    static byte[] ntlm2SessionResponse(final byte[] ntlmHash, final byte[] challenge,$/;"	m	class:NTLMEngineImpl
+ntlm2SessionResponse	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlm2SessionResponse = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlm2SessionResponse	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^    private static byte[] ntlm2SessionResponse(final byte[] ntlmHash, final byte[] challenge, final byte[] clientChallenge)$/;"	m	class:NtlmEngine	file:
+ntlm2SessionResponseUserSessionKey	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlm2SessionResponseUserSessionKey = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlm2SessionResponseUserSessionKey	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlm2SessionResponseUserSessionKey = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmAuthRealm	.tag_sources/org/asynchttpclient/Dsl.java	/^    public static Realm.Builder ntlmAuthRealm(String principal, String password) {$/;"	m	class:Dsl
+ntlmChallenge	.tag_sources/com/ning/http/client/providers/netty/NettyAsyncHttpProvider.java	/^    private Realm ntlmChallenge(List<String> wwwAuth, Request request, ProxyServer proxyServer, FluentCaseInsensitiveStringsMap headers, Realm realm, NettyResponseFuture<?> future, boolean proxyInd)$/;"	m	class:NettyAsyncHttpProvider	file:
+ntlmChallenge	.tag_sources/org/asynchttpclient/netty/handler/intercept/Unauthorized401Interceptor.java	/^    private void ntlmChallenge(String authenticateHeader,\/\/$/;"	m	class:Unauthorized401Interceptor	file:
+ntlmDomain	.tag_sources/com/ning/http/client/ProxyServer.java	/^    private String ntlmDomain = System.getProperty("http.auth.ntlm.domain", "");$/;"	f	class:ProxyServer	file:
+ntlmDomain	.tag_sources/org/asynchttpclient/Realm.java	/^        private String ntlmDomain = System.getProperty("http.auth.ntlm.domain");$/;"	f	class:Realm.Builder	file:
+ntlmDomain	.tag_sources/org/asynchttpclient/Realm.java	/^    private final String ntlmDomain;$/;"	f	class:Realm	file:
+ntlmDomain	.tag_sources/play/api/libs/ws/WS.scala	/^  def ntlmDomain: Option[String]$/;"	m
+ntlmEngine	.tag_sources/com/ning/http/client/providers/grizzly/GrizzlyAsyncHttpProvider.java	/^    private final static NTLMEngine ntlmEngine = new NTLMEngine();$/;"	f	class:GrizzlyAsyncHttpProvider	file:
+ntlmEngine	.tag_sources/com/ning/http/client/providers/netty/NettyAsyncHttpProvider.java	/^    private final static NTLMEngine ntlmEngine = new NTLMEngine();$/;"	f	class:NettyAsyncHttpProvider	file:
+ntlmHash	.tag_sources/com/ning/http/client/ntlm/NTLMEngine.java	/^    private static byte[] ntlmHash(String password) throws NTLMEngineException {$/;"	m	class:NTLMEngine	file:
+ntlmHash	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmHash = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmHash	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^    private static byte[] ntlmHash(final String password) throws NTLMEngineException {$/;"	m	class:NTLMEngineImpl	file:
+ntlmHash	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmHash = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmHash	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^    private static byte[] ntlmHash(final String password) throws NtlmEngineException {$/;"	m	class:NtlmEngine	file:
+ntlmHost	.tag_sources/org/asynchttpclient/Realm.java	/^        private String ntlmHost = "localhost";$/;"	f	class:Realm.Builder	file:
+ntlmHost	.tag_sources/org/asynchttpclient/Realm.java	/^    private final String ntlmHost;$/;"	f	class:Realm	file:
+ntlmProxyChallenge	.tag_sources/com/ning/http/client/providers/netty/NettyAsyncHttpProvider.java	/^    private Realm ntlmProxyChallenge(List<String> wwwAuth, Request request, ProxyServer proxyServer, FluentCaseInsensitiveStringsMap headers, Realm realm,$/;"	m	class:NettyAsyncHttpProvider	file:
+ntlmProxyChallenge	.tag_sources/org/asynchttpclient/netty/handler/intercept/ProxyUnauthorized407Interceptor.java	/^    private void ntlmProxyChallenge(String authenticateHeader,\/\/$/;"	m	class:ProxyUnauthorized407Interceptor	file:
+ntlmResponse	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmResponse = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmResponse	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmResponse = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmUserSessionKey	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmUserSessionKey = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmUserSessionKey	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmUserSessionKey = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmv2Blob	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmv2Blob = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmv2Blob	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmv2Blob = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmv2Hash	.tag_sources/com/ning/http/client/ntlm/NTLMEngine.java	/^    private static byte[] ntlmv2Hash(String target, String user, String password)$/;"	m	class:NTLMEngine	file:
+ntlmv2Hash	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmv2Hash = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmv2Hash	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^    private static byte[] ntlmv2Hash(final String domain, final String user, final byte[] ntlmHash)$/;"	m	class:NTLMEngineImpl	file:
+ntlmv2Hash	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmv2Hash = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmv2Hash	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^    private static byte[] ntlmv2Hash(final String domain, final String user, final byte[] ntlmHash) throws NtlmEngineException {$/;"	m	class:NtlmEngine	file:
+ntlmv2Response	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmv2Response = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmv2Response	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmv2Response = null;$/;"	f	class:NtlmEngine.CipherGen
+ntlmv2UserSessionKey	.tag_sources/org/apache/http/impl/auth/NTLMEngineImpl.java	/^        protected byte[] ntlmv2UserSessionKey = null;$/;"	f	class:NTLMEngineImpl.CipherGen
+ntlmv2UserSessionKey	.tag_sources/org/asynchttpclient/ntlm/NtlmEngine.java	/^        protected byte[] ntlmv2UserSessionKey = null;$/;"	f	class:NtlmEngine.CipherGen
+ntname	.tag_sources/org/apache/http/auth/NTUserPrincipal.java	/^    private final String ntname;$/;"	f	class:NTUserPrincipal	file:
+ntr	.tag_sources/api/cursor.scala	/^      val ntr = query.numberToReturn$/;"	V
+ntrans	.tag_sources/scala/xml/dtd/impl/SubsetConstruction.scala	/^      val ntrans = new mutable.HashMap[T, Int]()$/;"	V
+ntree	.tag_sources/scala/tools/nsc/transform/CleanUp.scala	/^          val ntree = typedWithPos(tree.pos)(REF(staticFieldSym))$/;"	V
+ntree	.tag_sources/scala/tools/nsc/transform/SpecializeTypes.scala	/^        val ntree = if (tree.tpe != null && !(tree.tpe <:< pt)) {$/;"	V
+ntree	.tag_sources/scala/tools/nsc/typechecker/Duplicators.scala	/^          val ntree = castType(tree, pt)$/;"	V
+nucleus	.tag_sources/scala/tools/nsc/typechecker/Macros.scala	/^      val nucleus = Ident(newTermName("macro"))$/;"	V
+nukeSymbols	.tag_sources/com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java	/^    private void nukeSymbols(boolean fill) {$/;"	m	class:ByteQuadsCanonicalizer	file:
+nulDelimiter	.tag_sources/io/netty/handler/codec/Delimiters.java	/^    public static ByteBuf[] nulDelimiter() {$/;"	m	class:Delimiters
+nulDelimiter	.tag_sources/org/jboss/netty/handler/codec/frame/Delimiters.java	/^    public static ChannelBuffer[] nulDelimiter() {$/;"	m	class:Delimiters
+null2EmptyString	.tag_sources/org/apache/xerces/impl/xs/XSModelImpl.java	/^    private static final String null2EmptyString(String str) {$/;"	m	class:XSModelImpl	file:
+null2EmptyString	.tag_sources/org/apache/xerces/impl/xs/traversers/XSDHandler.java	/^    private String null2EmptyString(String ns) {$/;"	m	class:XSDHandler	file:
+nullArray	.tag_sources/play/core/server/ssl/DefaultSSLEngineProvider.scala	/^  val nullArray = Array[X509Certificate]()$/;"	V
+nullAsBytes	.tag_sources/akka/serialization/Serializer.scala	/^  val nullAsBytes = Array[Byte]()$/;"	V
+nullChar	.tag_sources/org/jsoup/parser/TokeniserState.java	/^    static final char nullChar = '\\u0000';$/;"	f	class:TokeniserState
+nullCheck	.tag_sources/com/github/nscala_time/time/RichChronology.scala	/^  private def nullCheck[T <: AnyRef](x: T): Option[T] = if (x == null) None else Some(x)$/;"	m
+nullCheck	.tag_sources/scala/tools/nsc/transform/patmat/MatchTreeMaking.scala	/^        val nullCheck = REF(prevBinder) OBJ_NE NULL$/;"	V
+nullCheckedAliasId	.tag_sources/scala/tools/nsc/backend/jvm/analysis/NullnessAnalyzer.scala	/^    val nullCheckedAliasId: Long = (insn.getOpcode: @switch) match {$/;"	V
+nullCiphers	.tag_sources/com/typesafe/sslconfig/ssl/Ciphers.scala	/^  val nullCiphers = """SSL_RSA_WITH_NULL_MD5$/;"	V
+nullCiphers	.tag_sources/play/api/libs/ws/ssl/Ciphers.scala	/^  val nullCiphers = """SSL_RSA_WITH_NULL_MD5$/;"	V
+nullClassLoaderFactory	.tag_sources/org/apache/commons/logging/LogFactory.java	/^    protected static volatile LogFactory nullClassLoaderFactory = null;$/;"	f	class:LogFactory
+nullCount	.tag_sources/org/scalactic/Requirements.scala	/^      val nullCount = nullList.size$/;"	V
+nullCount	.tag_sources/scala/tools/nsc/typechecker/RefChecks.scala	/^      val nullCount            = onSyms(_ filter (_ == NullClass) size)$/;"	V
+nullCtx	.tag_sources/scala/tools/nsc/backend/icode/GenICode.scala	/^          val nullCtx = ctx1.newBlock()$/;"	V
+nullEntry	.tag_sources/com/google/common/cache/LocalCache.java	/^  static <K, V> ReferenceEntry<K, V> nullEntry() {$/;"	m	class:LocalCache
+nullEntry	.tag_sources/com/google/common/collect/MapMakerInternalMap.java	/^  static <K, V> ReferenceEntry<K, V> nullEntry() {$/;"	m	class:MapMakerInternalMap
+nullEscaper	.tag_sources/com/google/common/escape/Escapers.java	/^  public static Escaper nullEscaper() {$/;"	m	class:Escapers
+nullEv	.tag_sources/lowlevel.scala	/^  implicit def nullEv: NonStructuralBSONValue[BSONNull.type] = null$/;"	m
+nullField	.tag_sources/org/mockito/internal/util/reflection/Fields.java	/^    private static Filter<InstanceField> nullField() {$/;"	m	class:Fields	file:
+nullIfEmpty	.tag_sources/com/typesafe/sslconfig/ssl/CompositeX509KeyManager.scala	/^  private def nullIfEmpty[T](array: Array[T]) = if (array.size == 0) null else array$/;"	m
+nullIfEmpty	.tag_sources/com/typesafe/sslconfig/ssl/SSLContextBuilder.scala	/^  def nullIfEmpty[T](array: Array[T]) = {$/;"	m
+nullIfEmpty	.tag_sources/play/api/libs/ws/ssl/CompositeX509KeyManager.scala	/^  private def nullIfEmpty[T](array: Array[T]) = if (array.size == 0) null else array$/;"	m
+nullIfEmpty	.tag_sources/play/api/libs/ws/ssl/SSLContextBuilder.scala	/^  def nullIfEmpty[T](array: Array[T]) = {$/;"	m
+nullIfEmpty	.tag_sources/scala/xml/parsing/FactoryAdapter.scala	/^        def nullIfEmpty(s: String) = if (s == "") null else s$/;"	m
+nullIfNotFound	.tag_sources/com/gargoylesoftware/htmlunit/activex/javascript/msxml/XMLDOMNodeList.java	/^    private Object nullIfNotFound(final Object object) {$/;"	m	class:XMLDOMNodeList	file:
+nullList	.tag_sources/org/scalactic/Requirements.scala	/^      val nullList = arguments.zipWithIndex.filter { case (e, idx) =>$/;"	V
+nullNode	.tag_sources/com/fasterxml/jackson/databind/node/ContainerNode.java	/^    public final NullNode nullNode() { return _nodeFactory.nullNode(); }$/;"	m	class:ContainerNode
+nullNode	.tag_sources/com/fasterxml/jackson/databind/node/JsonNodeCreator.java	/^    public ValueNode nullNode();$/;"	m	interface:JsonNodeCreator
+nullNode	.tag_sources/com/fasterxml/jackson/databind/node/JsonNodeFactory.java	/^    public NullNode nullNode() { return NullNode.getInstance(); }$/;"	m	class:JsonNodeFactory
+nullOnLeft	.tag_sources/scala/reflect/internal/tpe/TypeComparers.scala	/^          def nullOnLeft = tp2 match {$/;"	m
+nullOrEmpty	.tag_sources/scala/tools/nsc/backend/jvm/opt/LocalOpt.scala	/^    def nullOrEmpty[T](l: java.util.List[T]) = l == null || l.isEmpty$/;"	m
+nullOut	.tag_sources/akka/stream/scaladsl/Graph.scala	/^    def nullOut(): Unit = other = null.asInstanceOf[T]$/;"	m
+nullOutputStream	.tag_sources/com/google/common/io/ByteStreams.java	/^  public static OutputStream nullOutputStream() {$/;"	m	class:ByteStreams
+nullPassedToVerify	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void nullPassedToVerify() {$/;"	m	class:Reporter
+nullPassedToVerifyNoMoreInteractions	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void nullPassedToVerifyNoMoreInteractions() {$/;"	m	class:Reporter
+nullPassedToWhenMethod	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void nullPassedToWhenMethod() {$/;"	m	class:Reporter
+nullPassedWhenCreatingInOrder	.tag_sources/org/mockito/exceptions/Reporter.java	/^    public void nullPassedWhenCreatingInOrder() {$/;"	m	class:Reporter
+nullRemovalCause	.tag_sources/com/google/common/collect/MapMaker.java	/^  RemovalCause nullRemovalCause;$/;"	f	class:MapMaker
+nullSafe	.tag_sources/com/google/gson/TypeAdapter.java	/^  public final TypeAdapter<T> nullSafe() {$/;"	m	class:TypeAdapter
+nullSafe	.tag_sources/scala/tools/nsc/ast/TreeDSL.scala	/^    def nullSafe[T](f: Tree => Tree, ifNull: Tree): Tree => Tree =$/;"	m
+nullSafeIsAbsent	.tag_sources/com/github/tomakehurst/wiremock/matching/ValuePattern.java	/^    public boolean nullSafeIsAbsent() {$/;"	m	class:ValuePattern
+nullSlotAndCopy	.tag_sources/scala/collection/immutable/Vector.scala	/^    private[immutable] final def nullSlotAndCopy(array: Array[AnyRef], index: Int) = {$/;"	m
+nullString	.tag_sources/org/jsoup/parser/HtmlTreeBuilderState.java	/^    private static String nullString = String.valueOf('\\u0000');$/;"	f	class:HtmlTreeBuilderState	file:
+nullString	.tag_sources/org/parboiled/support/ToStringFormatter.java	/^    private final String nullString;$/;"	f	class:ToStringFormatter	file:
+nullTemplate	.tag_sources/scala/tools/nsc/doc/model/diagram/DiagramFactory.scala	/^              val nullTemplate = makeTemplate(NullClass)$/;"	V
+nullText	.tag_sources/org/apache/commons/lang/builder/ToStringStyle.java	/^    private String nullText = "<null>";$/;"	f	class:ToStringStyle	file:
+nullText	.tag_sources/org/apache/commons/lang/text/StrBuilder.java	/^    private String nullText;$/;"	f	class:StrBuilder	file:
+nullText	.tag_sources/org/apache/commons/lang3/builder/ToStringStyle.java	/^    private String nullText = "<null>";$/;"	f	class:ToStringStyle	file:
+nullText	.tag_sources/org/apache/commons/lang3/text/StrBuilder.java	/^    private String nullText;$/;"	f	class:StrBuilder	file:
+nullToEmpty	.tag_sources/com/google/common/base/Strings.java	/^  public static String nullToEmpty(@Nullable String string) {$/;"	m	class:Strings
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Boolean[] nullToEmpty(Boolean[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Byte[] nullToEmpty(Byte[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Character[] nullToEmpty(Character[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Double[] nullToEmpty(Double[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Float[] nullToEmpty(Float[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Integer[] nullToEmpty(Integer[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Long[] nullToEmpty(Long[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Object[] nullToEmpty(Object[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static Short[] nullToEmpty(Short[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static String[] nullToEmpty(String[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static boolean[] nullToEmpty(boolean[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static byte[] nullToEmpty(byte[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static char[] nullToEmpty(char[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static double[] nullToEmpty(double[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static float[] nullToEmpty(float[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static int[] nullToEmpty(int[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static long[] nullToEmpty(long[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang/ArrayUtils.java	/^    public static short[] nullToEmpty(short[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Boolean[] nullToEmpty(final Boolean[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Byte[] nullToEmpty(final Byte[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Character[] nullToEmpty(final Character[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Class<?>[] nullToEmpty(final Class<?>[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Double[] nullToEmpty(final Double[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Float[] nullToEmpty(final Float[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Integer[] nullToEmpty(final Integer[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Long[] nullToEmpty(final Long[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Object[] nullToEmpty(final Object[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static Short[] nullToEmpty(final Short[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static String[] nullToEmpty(final String[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static boolean[] nullToEmpty(final boolean[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static byte[] nullToEmpty(final byte[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static char[] nullToEmpty(final char[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static double[] nullToEmpty(final double[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static float[] nullToEmpty(final float[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static int[] nullToEmpty(final int[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static long[] nullToEmpty(final long[] array) {$/;"	m	class:ArrayUtils
+nullToEmpty	.tag_sources/org/apache/commons/lang3/ArrayUtils.java	/^    public static short[] nullToEmpty(final short[] array) {$/;"	m	class:ArrayUtils
+nullToString	.tag_sources/com/github/tomakehurst/wiremock/standalone/CommandLineOptions.java	/^    private String nullToString(Object value) {$/;"	m	class:CommandLineOptions	file:
+nullValue	.tag_sources/com/fasterxml/jackson/databind/deser/impl/NullProvider.java	/^    public Object nullValue(DeserializationContext ctxt) throws JsonProcessingException$/;"	m	class:NullProvider
+nullValue	.tag_sources/com/google/gson/internal/bind/JsonTreeWriter.java	/^  @Override public JsonWriter nullValue() throws IOException {$/;"	m	class:JsonTreeWriter
+nullValue	.tag_sources/com/google/gson/stream/JsonWriter.java	/^  public JsonWriter nullValue() throws IOException {$/;"	m	class:JsonWriter
+nullValue	.tag_sources/org/hamcrest/CoreMatchers.java	/^  public static <T> org.hamcrest.Matcher<T> nullValue(java.lang.Class<T> type) {$/;"	m	class:CoreMatchers
+nullValue	.tag_sources/org/hamcrest/CoreMatchers.java	/^  public static org.hamcrest.Matcher<java.lang.Object> nullValue() {$/;"	m	class:CoreMatchers
+nullValue	.tag_sources/org/hamcrest/core/IsNull.java	/^    public static <T> Matcher<T> nullValue(Class<T> type) {$/;"	m	class:IsNull
+nullValue	.tag_sources/org/hamcrest/core/IsNull.java	/^    public static Matcher<Object> nullValue() {$/;"	m	class:IsNull
+nullVariableNames	.tag_sources/org/scalactic/Requirements.scala	/^        val nullVariableNames = nullList.map { case (e, idx) =>$/;"	V
+nullVector	.tag_sources/org/bouncycastle/crypto/engines/NoekeonEngine.java	/^    private static final int[] nullVector = $/;"	f	class:NoekeonEngine	file:
+nullWriter	.tag_sources/com/google/common/io/CharStreams.java	/^  public static Writer nullWriter() {$/;"	m	class:CharStreams
+null_	.tag_sources/scala/reflect/internal/StdNames.scala	/^    val null_ : NameType               = "null"$/;"	V
+null_constructor	.tag_sources/net/sf/cglib/core/EmitUtils.java	/^    public static void null_constructor(ClassEmitter ce) {$/;"	m	class:EmitUtils
+null_constructor	.tag_sources/org/mockito/cglib/core/EmitUtils.java	/^    public static void null_constructor(ClassEmitter ce) {$/;"	m	class:EmitUtils
+nullable	.tag_sources/com/google/inject/spi/Dependency.java	/^  private final boolean nullable;$/;"	f	class:Dependency	file:
+nullable	.tag_sources/play/api/libs/json/JsConstraints.scala	/^  def nullable[A](path: JsPath)(implicit f: Format[A]): OFormat[Option[A]] =$/;"	m
+nullable	.tag_sources/play/api/libs/json/JsConstraints.scala	/^  def nullable[A](path: JsPath)(implicit reads: Reads[A]) = Reads[Option[A]] { json =>$/;"	m
+nullable	.tag_sources/play/api/libs/json/JsConstraints.scala	/^  def nullable[A](path: JsPath)(implicit wrs: Writes[A]): OWrites[Option[A]] =$/;"	m
+nullableFields	.tag_sources/scala/tools/nsc/transform/Mixin.scala	/^    private def nullableFields(templ: Template): Map[Symbol, Set[Symbol]] = {$/;"	m
+nullableSynchronizedEntry	.tag_sources/com/google/common/collect/Synchronized.java	/^  private static <K, V> Entry<K, V> nullableSynchronizedEntry($/;"	m	class:Synchronized	file:
+nullary	.tag_sources/scala/tools/nsc/interpreter/LoopCommands.scala	/^    def nullary(name: String, help: String, f: () => Result): LoopCommand =$/;"	m
+nullaryFunction	.tag_sources/scala/tools/nsc/typechecker/DestructureTypes.scala	/^    def nullaryFunction(restpe: Type): Node                     = wrapMono(wrapEmpty, this(restpe))$/;"	m
+nullaryMethodType	.tag_sources/scala/reflect/api/Internals.scala	/^    def nullaryMethodType(resultType: Type): NullaryMethodType$/;"	m
+nullaryMethodType	.tag_sources/scala/reflect/internal/Internals.scala	/^    def nullaryMethodType(resultType: Type): NullaryMethodType = self.NullaryMethodType(resultType)$/;"	m
+nullcmp	.tag_sources/net/sf/cglib/core/EmitUtils.java	/^    private static void nullcmp(CodeEmitter e, Label oneNull, Label bothNull) {$/;"	m	class:EmitUtils	file:
+nullcmp	.tag_sources/org/mockito/cglib/core/EmitUtils.java	/^    private static void nullcmp(CodeEmitter e, Label oneNull, Label bothNull) {$/;"	m	class:EmitUtils	file:
+nullify	.tag_sources/scala/tools/nsc/transform/Mixin.scala	/^        def nullify(sym: Symbol) = Select(This(clazz), sym.accessedOrSelf) === LIT(null)$/;"	m
+nullifyAccessOrder	.tag_sources/com/google/common/cache/LocalCache.java	/^  static <K, V> void nullifyAccessOrder(ReferenceEntry<K, V> nulled) {$/;"	m	class:LocalCache
+nullifyEvictable	.tag_sources/com/google/common/collect/MapMakerInternalMap.java	/^  static <K, V> void nullifyEvictable(ReferenceEntry<K, V> nulled) {$/;"	m	class:MapMakerInternalMap
+nullifyExpirable	.tag_sources/com/google/common/collect/MapMakerInternalMap.java	/^  static <K, V> void nullifyExpirable(ReferenceEntry<K, V> nulled) {$/;"	m	class:MapMakerInternalMap
+nullifyWriteOrder	.tag_sources/com/google/common/cache/LocalCache.java	/^  static <K, V> void nullifyWriteOrder(ReferenceEntry<K, V> nulled) {$/;"	m	class:LocalCache
+nullness	.tag_sources/scala/tools/nsc/backend/jvm/analysis/NullnessAnalyzer.scala	/^    val nullness = (insn.getOpcode: @switch) match {$/;"	V
+nullness	.tag_sources/scala/tools/nsc/backend/jvm/analysis/NullnessAnalyzer.scala	/^  def nullness: Nullness$/;"	m
+nullnessTracking	.tag_sources/scala/tools/nsc/settings/ScalaSettings.scala	/^    val nullnessTracking        = Choice("nullness-tracking",         "Track nullness \/ non-nullness of local variables and apply optimizations.")$/;"	V
+nullout	.tag_sources/scala/collection/mutable/UnrolledBuffer.scala	/^    private def nullout(from: Int, until: Int) {$/;"	m
+nulls	.tag_sources/scala/tools/nsc/transform/Mixin.scala	/^        val nulls     = lazyValNullables(lzyVal).toList sortBy (_.id) map nullify$/;"	V
+nullsFirst	.tag_sources/com/google/common/collect/NullsFirstOrdering.java	/^  public <S extends T> Ordering<S> nullsFirst() {$/;"	m	class:NullsFirstOrdering
+nullsFirst	.tag_sources/com/google/common/collect/NullsLastOrdering.java	/^  public <S extends T> Ordering<S> nullsFirst() {$/;"	m	class:NullsLastOrdering
+nullsFirst	.tag_sources/com/google/common/collect/Ordering.java	/^  public <S extends T> Ordering<S> nullsFirst() {$/;"	m	class:Ordering
+nullsLast	.tag_sources/com/google/common/collect/NullsFirstOrdering.java	/^  public <S extends T> Ordering<S> nullsLast() {$/;"	m	class:NullsFirstOrdering
+nullsLast	.tag_sources/com/google/common/collect/NullsLastOrdering.java	/^  public <S extends T> Ordering<S> nullsLast() {$/;"	m	class:NullsLastOrdering
+nullsLast	.tag_sources/com/google/common/collect/Ordering.java	/^  public <S extends T> Ordering<S> nullsLast() {$/;"	m	class:Ordering
+nullsOk	.tag_sources/org/junit/experimental/theories/Theories.java	/^        private boolean nullsOk() {$/;"	m	class:Theories.TheoryAnchor	file:
+num	.tag_sources/akka/actor/dungeon/Children.scala	/^    val num = Unsafe.instance.getAndAddLong(this, AbstractActorCell.nextNameOffset, 1)$/;"	V
+num	.tag_sources/javassist/bytecode/ClassFileWriter.java	/^        protected int num;$/;"	f	class:ClassFileWriter.ConstPoolWriter
+num	.tag_sources/org/apache/xpath/Expression.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Expression
+num	.tag_sources/org/apache/xpath/objects/XBoolean.java	/^  public double num()$/;"	m	class:XBoolean
+num	.tag_sources/org/apache/xpath/objects/XNodeSet.java	/^  public double num()$/;"	m	class:XNodeSet
+num	.tag_sources/org/apache/xpath/objects/XNull.java	/^  public double num()$/;"	m	class:XNull
+num	.tag_sources/org/apache/xpath/objects/XNumber.java	/^  public double num()$/;"	m	class:XNumber
+num	.tag_sources/org/apache/xpath/objects/XNumber.java	/^  public double num(XPathContext xctxt) $/;"	m	class:XNumber
+num	.tag_sources/org/apache/xpath/objects/XObject.java	/^  public double num() throws javax.xml.transform.TransformerException$/;"	m	class:XObject
+num	.tag_sources/org/apache/xpath/objects/XRTreeFrag.java	/^  public double num()$/;"	m	class:XRTreeFrag
+num	.tag_sources/org/apache/xpath/objects/XRTreeFragSelectWrapper.java	/^  public double num()$/;"	m	class:XRTreeFragSelectWrapper
+num	.tag_sources/org/apache/xpath/objects/XString.java	/^  public double num()$/;"	m	class:XString
+num	.tag_sources/org/apache/xpath/operations/Div.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Div
+num	.tag_sources/org/apache/xpath/operations/Minus.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Minus
+num	.tag_sources/org/apache/xpath/operations/Mod.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Mod
+num	.tag_sources/org/apache/xpath/operations/Mult.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Mult
+num	.tag_sources/org/apache/xpath/operations/Neg.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Neg
+num	.tag_sources/org/apache/xpath/operations/Number.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Number
+num	.tag_sources/org/apache/xpath/operations/Plus.java	/^  public double num(XPathContext xctxt)$/;"	m	class:Plus
+num	.tag_sources/org/jsoup/select/CombiningEvaluator.java	/^    int num = 0;$/;"	f	class:CombiningEvaluator
+num	.tag_sources/scala/collection/generic/GenTraversableFactory.scala	/^    val num = implicitly[Integral[T]]$/;"	V
+num	.tag_sources/scala/collection/immutable/Stream.scala	/^    val num = implicitly[Integral[T]]$/;"	V
+num	.tag_sources/scala/collection/mutable/UnrolledBuffer.scala	/^    val num = in.readInt$/;"	V
+num	.tag_sources/scala/reflect/internal/Chars.scala	/^    val num = ($/;"	V
+num	.tag_sources/scala/runtime/RichByte.scala	/^  protected def num = scala.math.Numeric.ByteIsIntegral$/;"	m
+num	.tag_sources/scala/runtime/RichChar.scala	/^  protected def num = scala.math.Numeric.CharIsIntegral$/;"	m
+num	.tag_sources/scala/runtime/RichDouble.scala	/^  protected def num = scala.math.Numeric.DoubleIsFractional$/;"	m
+num	.tag_sources/scala/runtime/RichFloat.scala	/^  protected def num         = scala.math.Numeric.FloatIsFractional$/;"	m
+num	.tag_sources/scala/runtime/RichInt.scala	/^  protected def num = scala.math.Numeric.IntIsIntegral$/;"	m
+num	.tag_sources/scala/runtime/RichLong.scala	/^  protected def num = scala.math.Numeric.LongIsIntegral$/;"	m
+num	.tag_sources/scala/runtime/RichShort.scala	/^  protected def num = scala.math.Numeric.ShortIsIntegral$/;"	m
+num	.tag_sources/scala/runtime/ScalaNumberProxy.scala	/^  protected implicit def num: Fractional[T]$/;"	m
+num	.tag_sources/scala/runtime/ScalaNumberProxy.scala	/^  protected implicit def num: Integral[T]$/;"	m
+num	.tag_sources/scala/runtime/ScalaNumberProxy.scala	/^  protected implicit def num: Numeric[T]$/;"	m
+num	.tag_sources/scala/sys/package.scala	/^    val num    = Thread.activeCount()$/;"	V
+numActiveAllocations	.tag_sources/io/netty/buffer/PoolArena.java	/^    public  long numActiveAllocations() {$/;"	m	class:PoolArena
+numActiveAllocations	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numActiveAllocations();$/;"	m	interface:PoolArenaMetric
+numActiveBytes	.tag_sources/io/netty/buffer/PoolArena.java	/^    public long numActiveBytes() {$/;"	m	class:PoolArena
+numActiveBytes	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numActiveBytes();$/;"	m	interface:PoolArenaMetric
+numActiveHugeAllocations	.tag_sources/io/netty/buffer/PoolArena.java	/^    public long numActiveHugeAllocations() {$/;"	m	class:PoolArena
+numActiveHugeAllocations	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numActiveHugeAllocations();$/;"	m	interface:PoolArenaMetric
+numActiveNormalAllocations	.tag_sources/io/netty/buffer/PoolArena.java	/^    public long numActiveNormalAllocations() {$/;"	m	class:PoolArena
+numActiveNormalAllocations	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numActiveNormalAllocations();$/;"	m	interface:PoolArenaMetric
+numActiveSmallAllocations	.tag_sources/io/netty/buffer/PoolArena.java	/^    public long numActiveSmallAllocations() {$/;"	m	class:PoolArena
+numActiveSmallAllocations	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numActiveSmallAllocations();$/;"	m	interface:PoolArenaMetric
+numActiveStreams	.tag_sources/io/netty/handler/codec/spdy/SpdySession.java	/^    int numActiveStreams(boolean remote) {$/;"	m	class:SpdySession
+numActiveStreams	.tag_sources/org/jboss/netty/handler/codec/spdy/SpdySession.java	/^    int numActiveStreams(boolean remote) {$/;"	m	class:SpdySession
+numActiveTinyAllocations	.tag_sources/io/netty/buffer/PoolArena.java	/^    public long numActiveTinyAllocations() {$/;"	m	class:PoolArena
+numActiveTinyAllocations	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numActiveTinyAllocations();$/;"	m	interface:PoolArenaMetric
+numAllocations	.tag_sources/io/netty/buffer/PoolArena.java	/^    public long numAllocations() {$/;"	m	class:PoolArena
+numAllocations	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    long numAllocations();$/;"	m	interface:PoolArenaMetric
+numAllocations	.tag_sources/org/jboss/netty/handler/ssl/SslBufferPool.java	/^    private final AtomicInteger numAllocations;$/;"	f	class:SslBufferPool	file:
+numAnnotations	.tag_sources/javassist/bytecode/AnnotationsAttribute.java	/^    public int numAnnotations() {$/;"	m	class:AnnotationsAttribute
+numAnnotations	.tag_sources/javassist/bytecode/TypeAnnotationsAttribute.java	/^    public int numAnnotations() {$/;"	m	class:TypeAnnotationsAttribute
+numAnnotations	.tag_sources/javassist/bytecode/annotation/AnnotationsWriter.java	/^    public void numAnnotations(int num) throws IOException {$/;"	m	class:AnnotationsWriter
+numAnnotations	.tag_sources/javassist/bytecode/annotation/TypeAnnotationsWriter.java	/^    public void numAnnotations(int num) throws IOException {$/;"	m	class:TypeAnnotationsWriter
+numArgs	.tag_sources/scala/tools/nsc/backend/jvm/analysis/NullnessAnalyzer.scala	/^        val numArgs = Type.getArgumentTypes(desc).length$/;"	V
+numArgs	.tag_sources/scala/tools/nsc/backend/jvm/opt/CallGraph.scala	/^          val numArgs = Type.getArgumentTypes(call.desc).length$/;"	V
+numArgs	.tag_sources/scala/tools/nsc/backend/jvm/opt/ClosureOptimizer.scala	/^          val numArgs = Type.getArgumentTypes(invocation.desc).length$/;"	V
+numAsIntegral	.tag_sources/scala/collection/immutable/NumericRange.scala	/^        val numAsIntegral = num.asInstanceOf[Integral[B]]$/;"	V
+numAttribsDiscarded	.tag_sources/org/jsoup/safety/Cleaner.java	/^        int numAttribsDiscarded;$/;"	f	class:Cleaner.ElementMeta
+numAvail	.tag_sources/io/netty/buffer/PoolSubpage.java	/^    private int numAvail;$/;"	f	class:PoolSubpage	file:
+numAvailable	.tag_sources/io/netty/buffer/PoolSubpage.java	/^    public int numAvailable() {$/;"	m	class:PoolSubpage
+numAvailable	.tag_sources/io/netty/buffer/PoolSubpageMetric.java	/^    int numAvailable();$/;"	m	interface:PoolSubpageMetric
+numBytes	.tag_sources/org/bouncycastle/pqc/crypto/ntru/IndexGenerator.java	/^        int numBytes;   \/\/ includes the last byte even if only some of its bits are used$/;"	f	class:IndexGenerator.BitString
+numBytes	.tag_sources/play/filters/gzip/Gzip.scala	/^        val numBytes = state.deflater.deflate(state.buffer, state.pos, bufferSize - state.pos)$/;"	V
+numBytes	.tag_sources/play/filters/gzip/Gzip.scala	/^        val numBytes = state.inflater.inflate(state.buffer, state.pos, bufferSize - state.pos)$/;"	V
+numCaptured	.tag_sources/scala/reflect/internal/Types.scala	/^            val numCaptured = tpTypeArgs.length - typeArgs.length$/;"	V
+numCaptures	.tag_sources/scala/tools/nsc/transform/Delambdafy.scala	/^        val numCaptures = targetParams.length - functionParamTypes.length$/;"	V
+numCellsVisible	.tag_sources/org/scalatest/tools/RunnerJFrame.scala	/^        val numCellsVisible = lastVisibleIndex - firstVisibleIndex$/;"	V
+numChar	.tag_sources/org/scalacheck/Gen.scala	/^  def numChar: Gen[Char] = choose(48.toChar, 57.toChar)$/;"	m
+numChunkLists	.tag_sources/io/netty/buffer/PoolArena.java	/^    public int numChunkLists() {$/;"	m	class:PoolArena
+numChunkLists	.tag_sources/io/netty/buffer/PoolArenaMetric.java	/^    int numChunkLists();$/;"	m	interface:PoolArenaMetric
+numCoeffs	.tag_sources/org/bouncycastle/pqc/math/ntru/polynomial/LongPolynomial2.java	/^    private int numCoeffs;$/;"	f	class:LongPolynomial2	file:
+numCoeffs	.tag_sources/org/bouncycastle/pqc/math/ntru/polynomial/LongPolynomial5.java	/^    private int numCoeffs;$/;"	f	class:LongPolynomial5	file:

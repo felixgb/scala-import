@@ -1,0 +1,5 @@
+.stack-work/
+.tag_sources/
+dep_tags
+scala-import-insert.cabal
+*~
