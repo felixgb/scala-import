@@ -9,7 +9,10 @@ import qualified Data.ByteString.Lazy.Char8 as C8
 import Data.Text.Lazy (Text)
 import Data.Text.Lazy.Encoding
 import Data.List
+import Data.Set (Set)
+import qualified Data.Set as Set
 import Data.Maybe
+import Data.Function
 
 import System.Directory
 import System.FilePath
@@ -17,7 +20,7 @@ import System.FilePath
 data Tag = Tag
   { _def :: Text
   , _loc :: FilePath
-  } deriving (Show)
+  } deriving (Show, Eq, Ord)
 
 allDirsTo :: FilePath -> [FilePath]
 allDirsTo dir = tail $ scanl combine "" (splitPath dir)
@@ -31,7 +34,7 @@ getSearchDirs = filter isBelowHome . allDirsTo
 findTagsFiles :: IO [FilePath]
 findTagsFiles = do
   current <- getCurrentDirectory
-  findFiles (getSearchDirs current) "tags"
+  (++) <$> findFiles (getSearchDirs current) "tags" <*> findFiles (getSearchDirs current) "dep_tags"
 
 loadTags :: IO [Text]
 loadTags = findTagsFiles 
@@ -62,10 +65,6 @@ readTagLine ln = case T.words ln of
 tagPackage :: Tag -> IO (Maybe Text)
 tagPackage (Tag def loc) = readPackageDeclaration loc
 
--- filter lines that do not start with caps
--- remove dups by inserting into set
--- serialize to vim format
-
 readOnlyUTF8 :: FilePath -> IO Text
 readOnlyUTF8 path = BS.readFile path 
   >>= pure . T.unlines . stripBadLines . C8.lines
@@ -80,9 +79,22 @@ tagMatches ident tag = case T.words tag of
   (w : _) -> w == ident
   _ -> False
 
-go = do
-  tagsLines <- loadTags
-  let matched = filter (tagMatches "num") tagsLines
-  let tags = catMaybes (map readTagLine matched)
-  packages <- mapM tagPackage tags
-  mapM_ TIO.putStrLn (catMaybes packages)
+filterPackageObjects :: [Text] -> [Text]
+filterPackageObjects = filter (not . T.isSuffixOf "{")
+
+getMatchingTags :: Text -> [Text] -> [Tag]
+getMatchingTags toMatch = catMaybes
+  . map readTagLine
+  . filter (tagMatches toMatch)
+
+appendIdent :: Text -> Text -> Text
+appendIdent ident ln = T.concat [ln, ".", ident]
+
+thing ident = Set.map (appendIdent ident) . Set.fromList . filterPackageObjects . catMaybes
+
+go :: String -> IO ()
+go ident = loadTags 
+  >>= mapM tagPackage . getMatchingTags packed
+  >>= mapM_ TIO.putStrLn . thing packed
+  where
+    packed = T.pack ident

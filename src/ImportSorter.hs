@@ -8,13 +8,18 @@ import qualified Data.Text.IO as TIO
 import qualified Data.Map.Strict as Map
 import Data.List
 
-dispatch :: [String] -> IO ()
-dispatch args = case args of
-  [ln, path] -> TIO.readFile path >>= pure . insertImport ln >>= TIO.writeFile path
+dispatch :: String -> String -> IO ()
+dispatch path ln = TIO.readFile path
+  >>= pure . insertImport ("import " ++ ln)
+  >>= TIO.writeFile path
 
--- filter out the starting import lines
 insertImport :: String -> Text -> Text
-insertImport importLine text = T.unlines (T.pack importLine : T.lines text)
+insertImport toInsert txt = T.unlines $ insertThirdLine (T.pack toInsert) txt
+
+insertThirdLine :: Text -> Text -> [Text]
+insertThirdLine importLine text = case T.lines text of
+  (a : b : c : rest) -> a : b : c : importLine : rest
+  other -> importLine : other
 
 data Import = Import
   { _path :: Text
