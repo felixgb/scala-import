@@ -14,12 +14,19 @@ dispatch path ln = TIO.readFile path
   >>= TIO.writeFile path
 
 insertImport :: String -> Text -> Text
-insertImport toInsert txt = T.unlines $ insertThirdLine (T.pack toInsert) txt
+insertImport toInsert txt = T.unlines $ insertAfterPackage (T.pack toInsert) txt
 
 insertThirdLine :: Text -> Text -> [Text]
 insertThirdLine importLine text = case T.lines text of
   (a : b : c : rest) -> a : b : c : importLine : rest
   other -> importLine : other
+
+insertAfterPackage :: Text -> Text -> [Text]
+insertAfterPackage importLine text = loop importLine $ T.lines text
+
+loop :: Text -> [Text] -> [Text]
+loop importLine (l : ls) = if "package" `T.isPrefixOf` l then l : "" : importLine : ls else l : (loop importLine ls)
+loop importLine other = importLine : other
 
 data Import = Import
   { _path :: Text
