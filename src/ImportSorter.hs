@@ -25,7 +25,10 @@ insertAfterPackage :: Text -> Text -> [Text]
 insertAfterPackage importLine text = loop importLine $ T.lines text
 
 loop :: Text -> [Text] -> [Text]
-loop importLine (l : ls) = if "package" `T.isPrefixOf` l then l : "" : importLine : ls else l : (loop importLine ls)
+loop importLine (l : ls) =
+  if "package" `T.isPrefixOf` l
+    then l : "" : importLine : ls 
+    else l : (loop importLine ls)
 loop importLine other = importLine : other
 
 data Import = Import

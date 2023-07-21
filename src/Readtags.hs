@@ -13,9 +13,13 @@ import Data.Set (Set)
 import qualified Data.Set as Set
 import Data.Maybe
 import Data.Function
-
+import Data.Ord (Ordering(..))
+import Control.Monad (unless, when)
+import Control.Monad.Loops (takeWhileM)
 import System.Directory
 import System.FilePath
+import System.IO
+import Debug.Trace
 
 data Tag = Tag
   { _def :: Text
@@ -98,3 +102,73 @@ go ident = loadTags
   >>= mapM_ TIO.putStrLn . thing packed
   where
     packed = T.pack ident
+
+doit :: Text -> IO (Maybe Text)
+doit line = case readTagLine line of
+  Just tag -> tagPackage tag
+  Nothing -> pure Nothing
+
+go2 :: String -> IO ()
+go2 ident = do
+  lines <- withFile "dep_tags" ReadMode (seekUntilMatch $ T.pack ident)
+  xs <- mapM doit lines
+  let toPrint = thing (T.pack ident) xs
+  mapM_ TIO.putStrLn toPrint
+  -- lines <- withFile "tags" ReadMode (seekUntilMatch $ T.pack ident)
+  -- xs <- mapM doit lines
+  -- let toPrint = thing (T.pack ident) xs
+  -- mapM_ TIO.putStrLn toPrint
+
+showline :: Text -> Handle -> IO Text
+showline inp handle = do
+  filesizeBytes <- hFileSize handle
+  hSeek handle AbsoluteSeek (filesizeBytes `div` 2)
+  readUntilNewline handle
+  TIO.hGetLine handle
+
+seekUntilMatch :: Text -> Handle -> IO [Text]
+seekUntilMatch inp handle = do
+  filesizeBytes <- hFileSize handle
+  loop inp handle (filesizeBytes `div` 2) 0
+
+loop :: Text -> Handle -> Integer -> Int -> IO [Text]
+loop inp handle pos i = do
+  hSeek handle AbsoluteSeek pos
+  readUntilNewline handle
+  line <- TIO.hGetLine handle
+  putStrLn (show i)
+  case compareTagLine inp line of
+     LT -> loop inp handle (pos `div` 2) (i + 1)
+     GT -> loop inp handle (pos + (pos `div` 2)) (i + 1)
+     EQ -> do
+      readBackwards inp handle
+      beforeLine <- readUntilMatching inp handle
+      fmap (\ls -> beforeLine : ls) $ readAllMatching inp handle
+
+compareTagLine :: Text -> Text -> Ordering
+compareTagLine text line = text `compare` (head $ T.words line)
+
+readUntilNewline :: Handle -> IO ()
+readUntilNewline handle = do
+  c <- hGetChar handle
+  if c == '\n' then pure () else readUntilNewline handle
+
+readUntilMatching :: Text -> Handle -> IO Text
+readUntilMatching inp handle = do
+  line <- TIO.hGetLine handle
+  if (tagMatches inp line) then pure line
+  else readUntilMatching inp handle
+
+readAllMatching :: Text -> Handle -> IO [Text]
+readAllMatching inp handle = do
+  line <- TIO.hGetLine handle
+  if (tagMatches inp line) then fmap (\ls -> line : ls) (readAllMatching inp handle)
+  else pure []
+
+readBackwards :: Text -> Handle -> IO () 
+readBackwards inp handle = do
+  hSeek handle RelativeSeek (-10000)
+  readUntilNewline handle
+  line <- TIO.hGetLine handle
+  let m = tagMatches inp line
+  when (tagMatches inp line) $ readBackwards inp handle
