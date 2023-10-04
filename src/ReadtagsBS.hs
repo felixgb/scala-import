@@ -49,8 +49,6 @@ backUntilNewline bs i = loop i
 
 readUntilTab :: B.ByteString -> Int -> B.ByteString
 readUntilTab bs i = B.takeWhile (/= tab) $ B.drop i bs
-  where
-    pred c = c /= tab
 
 -- readUntilTab :: B.ByteString -> Int -> (Int, String)
 -- readUntilTab bs i = loop [] bs i
