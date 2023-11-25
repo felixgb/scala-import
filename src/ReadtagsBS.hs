@@ -8,6 +8,7 @@ import Data.Int (Int64)
 import Data.Ord (Ordering(..))
 import Debug.Trace
 import Data.List (find)
+import Data.Bits
 
 lf :: Word8
 lf = toEnum $ fromEnum '\n'
@@ -32,7 +33,7 @@ bs2String i = map w2c (B.unpack i)
 
 go3 :: IO ()
 go3 = do
-  bs <- B.readFile "dep_tags"
+  bs <- B.readFile "../tcr-web-services/dep_tags"
   let l = B.length bs
   -- print $ backUntilNewline bs (l `div` 2)
   putStrLn $ bs2String (binarySearch (string2bs "LocalDate") bs l)
@@ -60,13 +61,28 @@ readLastWord :: B.ByteString -> Int  -> B.ByteString
 readLastWord bs i = readUntilTab bs $ backUntilNewline bs i
 
 binarySearch :: B.ByteString -> B.ByteString -> Int -> B.ByteString
-binarySearch inp bs size = loop (size `div` 2)
+binarySearch inp bs size = loop 1 (size `div` 2)
   where
     lastWord i = readLastWord bs i
-    loop i = let w = lastWord i in 
-      case inp `compare` w of
-        LT -> loop (i `div` 2)
-        GT -> loop (i + (i `div` 2))
+    loop iterations i = let w = lastWord i in 
+      case (inp `compare` w) of
+        -- this is wrong
+        LT -> loop (iterations + 1) (i - (whatever size iterations))
+        GT -> loop (iterations + 1) (i + (whatever size iterations))
         EQ -> w
 
+lol :: Int -> String
+lol i = map (\n -> if n == i then 'x' else '.') [0..1000]
+
+whatever :: Int -> Int -> Int
+whatever size i = max 1 $ shift size (negate (i + 1))
+
+bCount :: Int -> Int
+bCount inp = loop 1 (1000 `div` 2)
+  where
+    is = [0..1000]
+    loop iterations i = case trace (show iterations) (inp `compare` (is !! i)) of
+        LT -> loop (iterations + 1) (i - (whatever 1000 iterations))
+        GT -> loop (iterations + 1) (i + (whatever 1000 iterations))
+        EQ -> i
 

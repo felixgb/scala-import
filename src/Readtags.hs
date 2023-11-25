@@ -2,12 +2,12 @@
 
 module Readtags where
 
-import qualified Data.Text.Lazy.IO as TIO
-import qualified Data.Text.Lazy as T
-import qualified Data.ByteString.Lazy as BS
-import qualified Data.ByteString.Lazy.Char8 as C8
-import Data.Text.Lazy (Text)
-import Data.Text.Lazy.Encoding
+import qualified Data.Text.IO as TIO
+import qualified Data.Text as T
+import qualified Data.ByteString as BS
+import qualified Data.ByteString.Char8 as C8
+import Data.Text (Text)
+import Data.Text.Encoding
 import Data.List
 import Data.Set (Set)
 import qualified Data.Set as Set
@@ -20,6 +20,7 @@ import System.Directory
 import System.FilePath
 import System.IO
 import Debug.Trace
+import Data.Bits
 
 data Tag = Tag
   { _def :: Text
@@ -46,7 +47,7 @@ loadTags = findTagsFiles
   >>= pure . T.lines . T.concat
 
 readPackageDeclaration :: FilePath -> IO (Maybe Text)
-readPackageDeclaration path = fmap getPackageFromFile (TIO.readFile path)
+readPackageDeclaration path = fmap getPackageFromFile (TIO.readFile (baseDirectory ++ path))
 
 -- concat package statements, see https://stackoverflow.com/questions/3541053/multiple-packages-definition
 getPackageFromFile :: Text -> Maybe Text
@@ -108,9 +109,11 @@ doit line = case readTagLine line of
   Just tag -> tagPackage tag
   Nothing -> pure Nothing
 
-go2 :: String -> IO ()
-go2 ident = do
-  lines <- withFile "dep_tags" ReadMode (seekUntilMatch $ T.pack ident)
+baseDirectory = "../tcr-web-services/"
+
+go2 :: String -> String -> IO ()
+go2 path ident = do
+  lines <- withFile (baseDirectory ++ path) ReadMode (seekUntilMatch $ T.pack ident)
   xs <- mapM doit lines
   let toPrint = thing (T.pack ident) xs
   mapM_ TIO.putStrLn toPrint
@@ -129,21 +132,27 @@ showline inp handle = do
 seekUntilMatch :: Text -> Handle -> IO [Text]
 seekUntilMatch inp handle = do
   filesizeBytes <- hFileSize handle
-  loop inp handle (filesizeBytes `div` 2) 0
+  loop filesizeBytes inp handle (filesizeBytes `div` 2) 1
 
-loop :: Text -> Handle -> Integer -> Int -> IO [Text]
-loop inp handle pos i = do
+whatever :: Integer -> Integer -> Integer
+whatever size i = max 1 $ shift size $ fromIntegral (negate (i + 1))
+
+loop :: Integer -> Text -> Handle -> Integer -> Integer -> IO [Text]
+loop size inp handle pos iterations = do
   hSeek handle AbsoluteSeek pos
   readUntilNewline handle
   line <- TIO.hGetLine handle
-  putStrLn (show i)
-  case compareTagLine inp line of
-     LT -> loop inp handle (pos `div` 2) (i + 1)
-     GT -> loop inp handle (pos + (pos `div` 2)) (i + 1)
-     EQ -> do
-      readBackwards inp handle
-      beforeLine <- readUntilMatching inp handle
-      fmap (\ls -> beforeLine : ls) $ readAllMatching inp handle
+  let maxIterations = ceiling (log $ fromIntegral size) + 10
+  if iterations > maxIterations
+  then pure []
+  else
+    case compareTagLine inp line of
+       LT -> loop size inp handle (pos - (whatever size iterations)) (iterations + 1)
+       GT -> loop size inp handle (pos + (whatever size iterations)) (iterations + 1)
+       EQ -> do
+        readBackwards inp handle
+        beforeLine <- readUntilMatching inp handle
+        fmap (\ls -> beforeLine : ls) $ readAllMatching inp handle
 
 compareTagLine :: Text -> Text -> Ordering
 compareTagLine text line = text `compare` (head $ T.words line)
