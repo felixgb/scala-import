@@ -109,7 +109,7 @@ doit line = case readTagLine line of
   Just tag -> tagPackage tag
   Nothing -> pure Nothing
 
-baseDirectory = "../tcr-web-services/"
+baseDirectory = "./"
 
 go2 :: String -> String -> IO ()
 go2 path ident = do
